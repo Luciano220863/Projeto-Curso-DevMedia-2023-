@@ -90,3 +90,13 @@ img {
     background-color: red;
     color: white;
 }
+
+.texto-destaque-titulo{
+    color: #f80505;
+    background: #4bc007;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+
