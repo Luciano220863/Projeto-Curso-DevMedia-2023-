@@ -91,6 +91,26 @@ img {
     color: white;
 }
 
+.texto-destaque-fundoazul {
+    background-color: rgb(8, 24, 247);
+    color: white;
+}
+
+.texto-destaque-fundopreto {
+    color: #fff;
+}
+
+.texto-destaque-fpreto{
+    background-color: #000;
+}
+
+.texto-destaque-fbranco {
+    background-color: #fff;
+}
+.texto-destaque-fundoverde {
+    background-color: rgb(14, 85, 14);
+    color: white;
+}
 .texto-destaque-titulo{
     color: #f80505;
     background: #4bc007;
@@ -98,5 +118,3 @@ img {
     border-radius: 5px;
     
 }
-
-
