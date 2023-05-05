@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3. Meu primeiro código CSS</title>
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="secao-header">
+        <h1>3. Meu primeiro código CSS</h1>
+    </div>
+    <div class="secao-text">
+        <p>Agora que vimos como é a sintaxe de um código CSS e como é importante implementá-la corretamente, veremos
+            como o código CSS é usado em uma página HTML:</p>
+    </div>
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="img/1.png" alt="" class="item current-item">
+                <img src="img/2.png" alt="" class="item current-item">
+                <img src="img/3.png" alt="" class="item current-item">
+                <img src="img/4.png" alt="" class="item current-item">
+                <img src="img/5.png" alt="" class="item current-item">
+                <img src="img/6.png" alt="" class="item current-item">
+                <img src="img/7.png" alt="" class="item current-item">
+                <img src="img/8.png" alt="" class="item current-item">
+                <img src="img/9.png" alt="" class="item current-item">
+                <img src="img/10.png" alt="" class="item current-item">
+                <img src="img/11.png" alt="" class="item current-item">
+                <img src="img/12.png" alt="" class="item current-item">
+                <img src="img/13.png" alt="" class="item current-item">
+            </div>
+        </div>
+    </div>
+    <br>
+    <h3>No <strong>Código 1</strong> vemos o código que foi utilizado no flow.</h3>
+    <div class="secao3">
+        <h1>Código 1. Código HTML</h1>
+        <div class="secao-html">
+            <p>&lt;!DOCTYPE html&gt;</p>
+            <p>&lt;html&gt;</p>
+
+            <p>&lt;head&gt;</p>
+            <p>&lt;meta charset="UTF-8"&gt;</p>
+            <p>&lt;title&gt;Estrutura CSS&lt;/title&gt;</p>
+            <p>&lt;style&gt;</p>
+            <p>h1 {</p>
+            <p>font-size: 48px;</p>
+            <p>color: <span class="texto-destaque-blue">blue</span>;</p>
+            <p>}</p>
+
+            <p>p {</p>
+            <p>font-size: 20px;</p>
+            <p>}</p>
+            <p>&lt;/style&gt;</p>
+            <p>&lt;/head&gt;</p>
+
+            <p>&lt;body&gt;</p>
+            <h1>Introdução ao CSS</h1>
+            <p>Aprenda o que é o CSS e como ele funciona. Comece a criar os seus primeiros estilos formatando elementos
+                de texto. O CSS é uma linguagem fundamental para quem quer trabalhar com desenvolvimento web. Abaixo
+                você tem o ponto de partida para o seu aprendizado.</p>
+            <p>&lt;/body&gt;</p>
+
+            <p>&lt;/html&gt;</p>
+
+        </div>
+    </div>
+    <div class="secao-text">
+        <p>Cada propriedade no CSS nos permite alterar uma característica de um elemento no HTML. Podemos ver na Figura
+            1 a
+            propriedade font-size, que altera o tamanho da fonte de um elemento de texto.</p>
+    </div>
+    <center>
+        <img src="img/fig1.png" alt="fig1" title="Figura 1. Propriedade font-size com tamanhos de fonte no CSS">
+    </center> <br>
+    <blockquote>Um código CSS deve estar com a sintaxe correta e também ficar dentro da tag style para que os estilos
+        sejam aplicados de forma correta</blockquote>
+    <h3>No flow a seguir veremos mais um exemplo:</h3>
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="img/14.png" alt="" class="item current-item">
+                <img src="img/15.png" alt="" class="item current-item">
+                <img src="img/16.png" alt="" class="item current-item">
+                <img src="img/17.png" alt="" class="item current-item">
+                <img src="img/18.png" alt="" class="item current-item">
+                <img src="img/19.png" alt="" class="item current-item">
+            </div>
+        </div>
+    </div>
+    <div class="secao4">
+        <h1>Código 2. Código completo</h1>
+        <div class="secao-html">
+            <p>&lt;!DOCTYPE html&gt;</p>
+            <p>&lt;html&gt;</p>
+
+            <p>&lt;head&gt;</p>
+            <p>&lt;meta charset="UTF-8"&gt;</p>
+            <p>&lt;title&gt;Estrutura CSS&lt;/title&gt;</p>
+            <p>&lt;style&gt;</p>
+            <p>h1 {</p>
+            <p>font-size: 48px;</p>
+            <p>color: <span class="texto-destaque-blue">blue</span>;</p>
+            <p>}</p>
+
+            <p>p {</p>
+            <p>font-size: 20px;</p>
+            <p>background-color: <span class="texto-destaque-fundoamarelo">yellow</span>;</p>
+            <p>}</p>
+            <p>&lt;/style&gt;</p>
+            <p>&lt;/head&gt;</p>
+
+            <p>&lt;body&gt;</p>
+            <h1>Introdução ao CSS</h1>
+            <p>Aprenda o que é o CSS e como ele funciona. Comece a criar os seus primeiros estilos
+                formatando elementos de texto. O CSS é uma linguagem fundamental para quem quer trabalhar com
+                desenvolvimento web. Abaixo você tem o ponto de partida para o seu aprendizado.</p>
+            <p>&lt;/body&gt;</p>
+
+            <p>&lt;/html&gt;</p>
+
+        </div>
+    </div>
+    <br>
+        <div class="secao-text">
+            <h3>Abaixo a estrutura do código HTML antes da sua execução:</h3>
+        </div>
+        
+        <div class="secao3">
+            <div class="secao-html">
+                <p>&lt;!DOCTYPE html&gt;</p>
+            <p>&lt;html&gt;</p>
+        
+                <p>&lt;head&gt;</p>
+                    <p>&lt;meta charset="UTF-8"&gt;</p>
+                    <p>&lt;title&gt;</p>Estrutura CSS<p>&lt;/title&gt;</p>
+                    <p>&lt;style&gt;</p>
+                        <p>h1 {</p>
+                            <p>font-size: 48px;</p>
+                            <p>color: <span class="texto-destaque-fundoazul">blue</span>;</p>
+                        <p>}</p>
+        
+                       <p>p {</p>
+                            <p>font-size: 20px;</p>
+                        <p>}</p>
+        
+                        <p>a {</p>
+                            <p>font-size: 20px;</p>
+                           <p>color: <span class="texto-destaque-fbranco">white</span>;</p>
+                            <p>background-color: <span class="texto-destaque-fundoazul">blue</span>;</p>
+                        <p>}</p>
+                    <p>&lt;/style&gt;</p>
+               <p>&lt;/head&gt;</p>
+        
+                <p>&lt;body&gt;</p>
+                    <p>&lt;p&gt;&lt;h1&gt;Introdução ao CSS&lt;/h1&gt;&lt;/p&gt;</p>
+                <p>&lt;p&gt;Aprenda o que é o CSS e como ele funciona. Comece a criar os seus primeiros estilos formatando elementos de texto. O CSS é uma linguagem fundamental para quem quer trabalhar com desenvolvimento web. Abaixo você tem o ponto de partida para o seu aprendizado.&lt;/p&gt;</p>
+                    <p>&lt;a href="https://www.devmedia.com.br/css"&gt;Guia de CSS&lt;/a&gt;</p>
+                </body>
+        
+                </html>
+        
+            </div>
+        
+        </div>
+    <div class="secao-text">
+        <h3>A seguir temos a execução do código:</h3>
+        <center>
+            <img src="img/Imagem1.png" alt="">
+        </center>
+    </div>
+
+    <div class="secao-text">
+        <p>
+            As propriedades font-size e color normalmente são aplicadas em textos como foram vistos os exemplos das tags h1 (título) e p (parágrafo). Quando essas propriedades são usadas em outros elementos, seus estilos são aplicados nos textos que estiverem dentro desses elementos
+        </p>
+    </div>
+
+</body>
+
+</html>
