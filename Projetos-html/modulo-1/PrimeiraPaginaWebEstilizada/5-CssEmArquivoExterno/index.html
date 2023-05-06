@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5. CSS em arquivo externo</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="secao-header">
+        <h1>5. CSS em arquivo externo</h1>
+    </div>
+    <div class="secao-text">
+        <p>Vimos nas aulas anteriores que adicionamos CSS por meio da tag <span
+                class="texto-destaque-red">&lt;style&gt;</span>. <br>No entanto, o mais indicado é aplicar o código de
+            estilo por meio de um arquivo CSS externo.</p>
+        <h2>Adicionando CSS por meio de um arquivo externo</h2>
+    </div>
+    <h3>Vejamos mais detalhes no próximo flow:</h3>
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="img/1.png" alt="1" class="item current-item">
+                <img src="img/2.png" alt="2" class="item current-item">
+                <img src="img/3.png" alt="3" class="item current-item">
+                <img src="img/4.png" alt="4" class="item current-item">
+            </div>
+        </div>
+    </div>
+    <div class="secao-text">
+        <p>Na <strong><span class="texto-destaque-fundoazul">Figura 1</span></strong> podemos ver uma estrutura básica
+            de um projeto web. Temos um diretório que vai conter os arquivos que contém a estrutura e os estilos da
+            nossa página.</p>
+        <center>
+            <img src="img/fig1.png" alt="fig1" title="Figura 1. Estrutura básica do projeto">
+        </center>
+    </div>
+    <h3>No flow a seguir vamos ver como usar um arquivo CSS externo na nossa página web:</h3>
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="img/5.png" alt="5" class="item current-item">
+                <img src="img/6.png" alt="6" class="item current-item">
+                <img src="img/7.png" alt="7" class="item current-item">
+                <img src="img/8.png" alt="8" class="item current-item">
+                <img src="img/9.png" alt="9" class="item current-item">
+                <img src="img/10.png" alt="10" class="item current-item">
+                <img src="img/11.png" alt="11" class="item current-item">
+                <img src="img/12.png" alt="12" class="item current-item">
+                <img src="img/13.png" alt="13" class="item current-item">
+                <img src="img/14.png" alt="14" class="item current-item">
+                <img src="img/15.png" alt="15" class="item current-item">
+            </div>
+        </div>
+    </div>
+    <div class="secao3">
+        <h2>Código 1. Código index.html</h2>
+        <div class="secao-html">
+            <br>
+            <p>&lt;!DOCTYPE html&gt;</p>
+            <p>&lt;html&gt;</p>
+
+            <p>&lt;head&gt;</p>
+            <p>&lt;meta charset="UTF-8"&gt;</p>
+            <p>&lt;title&gt;Estrutura CSS&lt;/title&gt;</p>
+            <p>&lt;link rel="stylesheet" href="estilo.css"&gt;</p>
+            <p>&lt;/head&gt;</p>
+
+            <p>&lt;body&gt;</p>
+            <p>&lt;h1>Introdução ao CSS&lt;/h1&gt;</p>
+            <p>&lt;p>Aprenda o que é o CSS e como ele funciona. Comece a criar os seus primeiros estilos formatando
+                elementos de texto. O CSS é uma linguagem fundamental para quem quer trabalhar com desenvolvimento web.
+                Abaixo você tem o ponto de partida para o seu aprendizado.&lt;/p&gt;</p>
+            <p>&lt;/body&gt;</p>
+
+            <p>&lt;/html&gt;</p>
+
+        </div>
+
+    </div> <br>
+    <div class="secao4">
+        <h2><span class="texto-destaque-blue">Código 2. Código do estilo.css</span></h2>
+        <div class="secao-html">
+            <br>
+            <p>h1 {</p>
+            <p>font-size: 48px;</p>
+            <p>color: <span class="texto-destaque-fundoazul">blue</span>;</p>
+            <p>}</p>
+
+            <p>p {</p>
+            <p>font-size: 20px;</p>
+            <p>}</p>
+
+        </div>
+
+    </div>
+    <blockquote>Quando usamos a tag <span class="texto-destaque-red">&lt;style&gt;</span>
+        dentro do arquivo HTML estamos usando <strong><mark>CSS incorporado</mark></strong> (ou interno). <br><br> Já quando colocamos os estilos em um arquivo CSS separado estamos usando <strong><mark>CSS externo</mark></strong>.
+    </blockquote>
+    <div class="secao3">
+        <h2>Código 3. Arquivo CSS sendo vinculado ao arquivo HTML</h2>
+        <div class="secao-html">
+            <p>&lt;!DOCTYPE html&gt;</p>
+            <p>&lt;html&gt;</p>
+            <p>…</p>
+            <p>&lt;link rel="stylesheet" href="estilo.css"&gt;</p>
+            <p>…</p>
+
+            <p>&lt;/html&gt;</p>
+
+        </div>
+
+    </div>
+    <div class="secao-text">
+        <p>No entanto, para casos em que o arquivo.css esteja salvo em outra pasta precisaremos utilizar uma sintaxe levemente diferente. <br>Vejamos mais detalhes no próximo flow:</p>
+    </div>
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="img/90.png" alt="" class="item current-item">
+                <img src="img/91.png" alt="" class="item current-item">
+                <img src="img/92.png" alt="" class="item current-item">
+                <img src="img/93.png" alt="" class="item current-item">
+                <img src="img/94.png" alt="" class="item current-item">
+            </div>
+        </div>
+    </div>
+    <br>
+    <blockquote>Dividir o seu projeto em pastas é uma ótima prática, pois deixará os arquivos mais organizados. Isso facilita a alteração/evolução do código.</blockquote>
+    <h3>Veja no Código 4 a codificação utilizada no exemplo</h3>
+    <div class="secao4">
+        <h2><span class="texto-destaque-blue">Código 4. Arquivo CSS sendo vinculado ao HTML através da tag <span class="texto-destaque-fpreto">&lt;link&gt;</span></span></h2>
+        <div class="secao-html">
+           <p>/* Link HTML */</p>
+            <p>&lt;link rel="stylesheet" href="css/estilos.css"&gt;</p>
+            <p>}</p>
+        </div>
+    </div>
+    <blockquote>Utilizar um arquivo CSS externo deixa a manutenção de um projeto mais fácil. Além de termos arquivos mais fáceis de manter, não temos todo o código (estrutura e estilo) misturado em um mesmo arquivo. É uma boa prática separar os códigos HTML e CSS em arquivos distintos, deixando cada arquivo com uma única responsabilidade</blockquote>
+</body>
+
+</html>
