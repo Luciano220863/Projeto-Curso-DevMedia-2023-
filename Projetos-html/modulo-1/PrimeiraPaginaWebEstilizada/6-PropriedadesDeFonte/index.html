@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6. Propriedades de fonte</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="secao-header">
+        <h1>6. Propriedades de fonte</h1>
+    </div>
+    <div class="secao-text">
+        <p>É muito importante para o programador front-end conhecer as propriedades CSS a fim de ter diversas opções de
+            estilos para usar em suas páginas web. No flow a seguir veremos mais algumas propriedades CSS, que são
+            bastantes utilizadas:</p>
+    </div>
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="img/1.png" alt="1" class="item current-item">
+                <img src="img/2.png" alt="2" class="item current-item">
+                <img src="img/3.png" alt="3" class="item current-item">
+                <img src="img/4.png" alt="4" class="item current-item">
+                <img src="img/5.png" alt="5" class="item current-item">
+                <img src="img/6.png" alt="6" class="item current-item">
+                <img src="img/7.png" alt="7" class="item current-item">
+                <img src="img/8.png" alt="8" class="item current-item">
+                <img src="img/9.png" alt="9" class="item current-item">
+                <img src="img/10.png" alt="10" class="item current-item">
+                <img src="img/11.png" alt="11" class="item current-item">
+                <img src="img/12.png" alt="12" class="item current-item">
+            </div>
+        </div>
+    </div> <br>
+    <div class="secao3">
+        <h2>Nos <mark><strong>Códigos 1 e 2</strong></mark> vemos os códigos que foram utilizados no flow</h2>
+        <h3>Código 1. Código index.html</h3>
+        <div class="secao-html">
+            <p>&lt;!DOCTYPE HTML&gt;</p>
+            <p>&lt;html&gt;</p>
+
+            <p>&lt;head&gt;</p>
+            <p>&lt;meta charset="UTF-8"&gt;</p>
+            <p>&lt;title>Estrutura CSS&lt;/title&gt;</p>
+            <p>&lt;link rel="stylesheet" href="estilo.css"&gt;</p>
+            <p>&lt;/head&gt;</p>
+
+            <p>&lt;body&gt;</p>
+            <p>&lt;h1&gt;Introdução ao CSS&lt;/h1&gt;</p>
+            <p>&lt;p&gt;Aprenda o que é o CSS e como ele funciona. Comece a criar os seus primeiros estilos formatando
+                elementos de texto. O CSS é uma linguagem fundamental para quem quer trabalhar com desenvolvimento web.
+                <br> Abaixo você tem o ponto de partida para o seu aprendizado&lt;/p&gt;
+            </p>
+            <p>&lt;/body&gt;</p>
+
+            <p>&lt;/html&gt;</p>
+
+        </div>
+
+    </div> <br>
+    <div class="secao4">
+        <h2><strong>Código 2</strong>. Código do estilo.css</h2>
+        <div class="secao-html">
+            <p>h1 {</p>
+            <p>font-size: 48px;</p>
+            <p>font-family: 'Verdana';</p>
+            <p>}</p>
+
+        </div>
+
+    </div>
+    <br>
+    <blockquote>Existem muitas famílias de fontes no CSS. Algumas delas são fontes padrão, ou seja, já vem nativamente
+        no navegador. Já outras são externas onde se torna necessário instalar essas fontes ou usar um link externo para
+        usá-las</blockquote>
+    <div>
+        <p>No artigo <a href="https://www.devmedia.com.br/lista-de-fontes-padrao-no-css/43215" target="_blank"
+                rel="noopener noreferrer">Lista de fontes padrão do CSS</a> você vai conferir a lista das fontes padrão
+            mais utilizadas na linguagem. <br>
+
+            No flow a seguir veremos mais uma nova propriedade de texto que é muito utilizada no CSS:</p>
+    </div>
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="img/13.png" alt="13" class="item current-item">
+                <img src="img/14.png" alt="14" class="item current-item">
+                <img src="img/15.png" alt="15" class="item current-item">
+                <img src="img/16.png" alt="16" class="item current-item">
+                <img src="img/17.png" alt="17" class="item current-item">
+                <img src="img/18.png" alt="18" class="item current-item">
+            </div>
+        </div>
+    </div>
+    <div class="secao3">
+        <h2>Nos <mark><strong>Códigos 3 e 4</strong></mark> vemos os códigos que foram utilizados no
+            flow</h2>
+        <h3>Código 3. Código index.html</h3>
+        <div class="secao-html">
+            <p>&lt;!DOCTYPE HTML&gt;</p>
+            <p>&lt;html&gt;</p>
+
+            <p>&lt;head&gt;</p>
+            <p>&lt;meta charset="UTF-8"&gt;</p>
+            <p>&lt;title&gt;Estrutura CSS&lt;/title&gt;</p>
+            <p>&lt;link rel="stylesheet" href="estilo.css"&gt;</p>
+            <p>&lt;/head&gt;</p>
+
+            <p>&lt;body&gt;</p>
+            <p>&lt;h1&gt;Introdução ao CSS&lt;/h1&gt;</p>
+            <p>&lt;p&gt;Aprenda o que é o CSS e como ele funciona. Comece a criar os seus primeiros
+                estilos formatando elementos de texto. O CSS é uma linguagem fundamental para quem quer trabalhar com
+                desenvolvimento web. <br> Abaixo você tem o ponto de partida para o seu aprendizado&lt;/p&gt;</p>
+            <p>&lt;/body&gt;</p>
+
+            <p>&lt;/html&gt;</p>
+
+        </div>
+
+    </div> <br>
+    <div class="secao4">
+        <h2><strong>Código 4</strong>. Código do estilo.css</h2>
+        <div class="secao-html">
+            <p>h1 {</p>
+            <p>font-size: 48px;</p>
+            <p>font-family: 'Verdana';</p>
+            <p>}</p>
+            <br>
+            <p>p {</p>
+            <p>font-size: 28px;</p>
+            <p>font-weight: bold</p>
+            <p>}</p>
+        </div>
+    </div>
+    <h3>No flow a seguir vemos uma outra propriedade utilizada para fontes:</h3>
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="img/19.png" alt="19" class="item current-item">
+                <img src="img/20.png" alt="20" class="item current-item">
+                <img src="img/22.png" alt="22" class="item current-item">
+                <img src="img/23.png" alt="23" class="item current-item">
+                <img src="img/24.png" alt="24" class="item current-item">
+                <img src="img/25.png" alt="25" class="item current-item">
+            </div>
+        </div>
+    </div>
+    <div class="secao3">
+        <h2>Nos <mark><strong>Códigos 5 e 6</strong></mark> vemos os códigos que foram utilizados no
+            flow</h2>
+        <h3>Código 3. Código index.html</h3>
+        <div class="secao-html">
+            <p>&lt;!DOCTYPE HTML&gt;</p>
+            <p>&lt;html&gt;</p>
+
+            <p>&lt;head&gt;</p>
+            <p>&lt;meta charset="UTF-8"&gt;</p>
+            <p>&lt;title&gt;Estrutura CSS&lt;/title&gt;</p>
+            <p>&lt;link rel="stylesheet" href="estilo.css"&gt;</p>
+            <p>&lt;/head&gt;</p>
+
+            <p>&lt;body&gt;</p>
+            <p>&lt;h1&gt;Introdução ao CSS&lt;/h1&gt;</p>
+            <p>&lt;p&gt;Aprenda o que é o CSS e como ele funciona. Comece a criar os seus primeiros
+                estilos formatando elementos de texto. O CSS é uma linguagem fundamental para quem
+                quer trabalhar com
+                desenvolvimento web. <br> Abaixo você tem o ponto de partida para o seu
+                aprendizado&lt;/p&gt;</p>
+            <p>&lt;/body&gt;</p>
+
+            <p>&lt;/html&gt;</p>
+
+        </div>
+
+    </div> <br>
+    <div class="secao4">
+        <h2><strong>Código 6</strong>. Código do estilo.css</h2>
+        <div class="secao-html">
+            <p>h1 {</p>
+            <p>font-size: 48px;</p>
+            <p>font-family: 'Verdana';</p>
+            <p>}</p>
+            <br>
+            <p>p {</p>
+            <p>font-size: 28px;</p>
+            <p>font-weight: bold</p>
+            <p>font-style: italic;</p>
+            <p>}</p>
+        </div>
+    </div>
+    <h3>No flow a seguir veremos mais uma propriedade utilizada para textos:</h3>
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="img/26.png" alt="26" class="item current-item">
+                <img src="img/27.png" alt="27" class="item current-item">
+                <img src="img/28.png" alt="28" class="item current-item">
+                <img src="img/29.png" alt="29" class="item current-item">
+                <img src="img/30.png" alt="30" class="item current-item">
+                <img src="img/31.png" alt="31" class="item current-item">
+                <img src="img/32.png" alt="32" class="item current-item">
+                <img src="img/33.png" alt="33" class="item current-item">
+                <img src="img/34.png" alt="34" class="item current-item">
+                <img src="img/35.png" alt="35" class="item current-item">
+                <img src="img/35_1.png" alt="35_1" class="item current-item">
+            </div>
+        </div>
+    </div>
+    <div class="secao3">
+        <h3>Código 5. Código index.html</h3>
+        <div class="secao-html">
+            <p>&lt;!DOCTYPE HTML&gt;</p>
+            <p>&lt;html&gt;</p>
+
+            <p>&lt;head&gt;</p>
+            <p>&lt;meta charset="UTF-8"&gt;</p>
+            <p>&lt;title&gt;Estrutura CSS&lt;/title&gt;</p>
+            <p>&lt;link rel="stylesheet" href="estilo.css"&gt;</p>
+            <p>&lt;/head&gt;</p>
+
+            <p>&lt;body&gt;</p>
+            <p>&lt;h1&gt;Introdução ao CSS&lt;/h1&gt;</p>
+            <p>&lt;p&gt;Aprenda o que é o CSS e como ele funciona. Comece a criar os seus primeiros
+                estilos formatando elementos de texto. O CSS é uma linguagem fundamental para quem
+                quer trabalhar com
+                desenvolvimento web. <br> Abaixo você tem o ponto de partida para o seu
+                aprendizado&lt;/p&gt;</p>
+            <p>&lt;/body&gt;</p>
+
+            <p>&lt;/html&gt;</p>
+        </div>
+    </div> <br>
+    <div class="secao4">
+        <h2><strong>Código 6</strong>. Código do estilo.css</h2>
+        <div class="secao-html">
+            <p>h1 {</p>
+            <p>font-size: 48px;</p>
+            <p>font-family: 'Verdana';</p>
+            <p>}</p>
+            <br>
+            <p>p {</p>
+            <p>font-size: 28px;</p>
+            <p>font-weight: bold</p>
+            <p>font-style: italic;</p>
+            <p>}</p>
+        </div>
+    </div> <br>
+    <h3>No flow a seguir veremos mais uma propriedade utilizada para textos:</h3>
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="img/36.png" alt="36" class="item current-item">
+                <img src="img/37.png" alt="37" class="item current-item">
+                <img src="img/38.png" alt="38" class="item current-item">
+                <img src="img/39.png" alt="39" class="item current-item">
+                <img src="img/40.png" alt="40" class="item current-item">
+                <img src="img/41.png" alt="41" class="item current-item">
+                <img src="img/42.png" alt="42" class="item current-item">
+                <img src="img/43.png" alt="43" class="item current-item">
+                <img src="img/44.png" alt="44" class="item current-item">
+                <img src="img/45.png" alt="45" class="item current-item">
+                <img src="img/45_1.png" alt="45_1" class="item current-item">
+            </div>
+        </div>
+    </div> <br>
+    <div class="secao3">
+        <h1>Nos Códigos 7 a 11 vemos os códigos utilizados no flow.</h1>
+        <h3>Código 7. Código index.html</h3>
+        <div class="secao-html">
+            <p>&lt;!DOCTYPE HTML&gt;</p>
+            <p>&lt;html&gt;</p>
+
+            <p>&lt;head&gt;</p>
+            <p>&lt;meta charset="UTF-8"&gt;</p>
+            <p>&lt;title&gt;Estrutura CSS&lt;/title&gt;</p>
+            <p>&lt;link rel="stylesheet" href="estilo.css"&gt;</p>
+            <p>&lt;/head&gt;</p>
+
+            <p>&lt;body&gt;</p>
+            <p>&lt;h1&gt;Introdução ao CSS&lt;/h1&gt;</p>
+            <p>&lt;p&gt;Aprenda o que é o CSS e como ele funciona. Comece a criar os seus primeiros
+                estilos formatando elementos de texto. O CSS é uma linguagem fundamental para quem
+                quer trabalhar com
+                desenvolvimento web. <br> Abaixo você tem o ponto de partida para o seu
+                aprendizado&lt;/p&gt;</p>
+            <p>&lt;a href="https://www.devmedia.com.br/css"&gt;Guia de CSS&lt;/a&gt;
+            </p>
+            <p>&lt;/body&gt;</p>
+
+            <p>&lt;/html&gt;</p>
+        </div>
+    </div> <br>
+    <div class="secao4">
+        <h2><strong>Código 8</strong>. Código CSS com o exemplo de uso da propriedade text-decoration com o
+            valor underline aplicado no título</h2>
+        <div class="secao-html">
+            <p>h1 {</p>
+            <p>font-size: 48px;</p>
+            <p>font-family: 'Verdana';</p>
+            <p>text-decoration: underline;</p>
+            <p>}</p>
+            <br>
+            <p>p {</p>
+            <p>font-size: 28px;</p>
+            <p>font-style: italic;</p>
+            <p>font-weight: bold</p>
+            <p>}</p>
+            <br>
+            <p>span {</p>
+            <p>font-weight: bold;</p>
+            }</p>
+        </div>
+    </div> <br>
+    <div class="secao3">
+        <h2><strong>Código 10</strong>. Código CSS com o exemplo de uso da propriedade text-decoration com o
+            valor overline aplicado no título e no link</h2>
+        <div class="secao-html">
+            <p>h1 {</p>
+            <p>font-size: 48px;</p>
+            <p>font-family: 'Verdana';</p>
+            <p>text-decoration: overline;</p>
+            <p>}</p>
+            <br>
+            <p>p {</p>
+            <p>font-size: 28px;</p>
+            <p>font-style: italic;</p>
+            <p>font-weight: bold</p>
+            <p>}</p>
+            <br>
+            <p>a {</p>
+            <p>font-size: 24px;</p>
+            <p>text-decoration: overline;</p>
+            <p>}</p>
+        </div>
+    </div> <br>
+    <div class="secao4">
+        <h2><strong>Código 11</strong>. Código CSS com o exemplo de uso da propriedade text-decoration com o
+            valor line-through aplicado no título, no parágrafo
+            e no link.</h2>
+        <div class="secao-html">
+            <p>h1 {</p>
+            <p>font-size: 48px;</p>
+            <p>font-family: 'Verdana';</p>
+            <p>text-decoration: line-through;</p>
+            <p>}</p>
+            <br>
+            <p>p {</p>
+            <p>font-size: 24px;</p>
+            <p>font-style: italic;</p>
+            <p>font-weight: bold</p>
+            <p>text-decoration: line-through;</p>
+            <p>}</p>
+            <br>
+            <p>span {</p>
+            <p>font-weight: bold;</p>
+            <p>}</p>
+            <br>
+            <p>a {</p>
+            <p>font-size: 24px;</p>
+            <p>text-decoration: line-through;</p>
+            <p>}</p>
+        </div>
+    </div>
+    <div class="secao-text">
+        <p>Existem outras propriedades que são muito importantes na estilização de textos. No flow a seguir veremos a
+            propriedade que é responsável pelo alinhamento de textos:</p>
+
+    </div>
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="img/46.png" alt="46" class="item current-item">
+                <img src="img/47.png" alt="47" class="item current-item">
+                <img src="img/48.png" alt="48" class="item current-item">
+                <img src="img/49.png" alt="49" class="item current-item">
+                <img src="img/50.png" alt="50" class="item current-item">
+                <img src="img/51.png" alt="51" class="item current-item">
+            </div>
+        </div>
+    </div> <br>
+    <div class="secao4">
+        <h2>Código 14. Código index.htmlCódigo 14. Código index.html</h2>
+        <h3>Nos Códigos 14 e 15 vemos os códigos que foram utilizados no flow.</h3>
+        <div class="secao-html">
+            <p>&lt;!DOCTYPE HTML&gt;</p>
+            <p>&lt;html&gt;</p>
+
+            <p>&lt;head&gt;</p>
+            <p>&lt;meta charset="UTF-8"&gt;</p>
+            <p>&lt;title&gt;Estrutura CSS&lt;/title&gt;</p>
+            <p>&lt;link rel="stylesheet" href="estilo.css"&gt;</p>
+            <p>&lt;/head&gt;</p>
+
+            <p>&lt;body&gt;</p>
+            <p>&lt;h1&gt;Introdução ao CSS&lt;/h1&gt;</p>
+            <p>&lt;p&gt;Aprenda o que é o CSS e como ele funciona. Comece a criar os seus primeiros
+                estilos formatando elementos de texto. O CSS é uma linguagem fundamental para quem
+                quer trabalhar com
+                desenvolvimento web. <br> Abaixo você tem o ponto de partida para o seu
+                aprendizado&lt;/p&gt;</p>
+            <p>&lt;a href="https://www.devmedia.com.br/css"&gt;Guia de CSS&lt;/a&gt;
+            </p>
+            <p>&lt;/body&gt;</p>
+
+            <p>&lt;/html&gt;</p>
+        </div>
+    </div> <br>
+
+</body>
+
+</html>
