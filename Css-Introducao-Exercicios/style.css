@@ -1,0 +1,146 @@
+body {
+    margin: 15px;
+    padding: 0;
+    background: #d3d3d3;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #a52222;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(217, 255, 0);
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 15px;
+}
+
+h3, h4, h5, h6 {
+    text-align: left;
+    margin-left: 25px;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: 25px;
+}
+
+.secao-header {
+    margin-top: 5px;
+    padding-top: 0;
+    background: #000;
+    border: solid 1px #ffffff;
+    border-radius: 10px;
+}
+
+.secao1 {
+    margin-top: 5px;
+    padding-top: 0;
+    background: #5F9EA0;
+    border: solid 1px #000;
+    border-radius: 10px;
+}
+
+.secao2 {
+    margin-top: 5px;
+    padding-top: 0;
+    background: #878a8a;
+    border: solid 1px #000;
+    border-radius: 10px;
+}
+
+.subtitulo {
+    text-align: center;
+    background-color: rgb(148, 104, 189);
+    color: white;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+
+.secao3 {
+    margin-top: 1px;
+    padding-top: 0;
+    background: #00BFFF;
+    border: solid 1px #000;
+    border-radius: 10px;
+}
+
+.secao4 {
+    margin-top: 1px;
+    padding-top: 0;
+    background: #BDB76B;
+    border: solid 1px #000;
+    border-radius: 10px;
+}
+
+.secao-html {
+    margin-top: 1px;
+    padding-top: 0;
+    background: #111111;
+    border: solid 1px #000;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: left;
+    color: #4bc007;
+}
+
+.tab{
+    text-align: left;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.texto-destaque-blue {
+    color: blue;
+}
+
+.texto-destaque-resposta {
+    color: rgb(217, 255, 0);
+    background: #000;
+}
+
+.texto-destaque-red {
+    background-color: red;
+    color: white;
+}
+
+.texto-destaque-fundoazul {
+    background-color: rgb(8, 24, 247);
+    color: white;
+}
+
+.texto-destaque-fundopreto {
+    color: #fff;
+}
+
+.texto-destaque-fpreto {
+    background-color: #000;
+}
+
+.texto-destaque-fbranco {
+    background-color: #fff;
+}
+
+.texto-destaque-fundoverde {
+    background-color: rgb(14, 85, 14);
+    color: white;
+}
+
+.texto-destaque-titulo {
+    color: #f80505;
+    background: #4bc007;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
