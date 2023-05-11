@@ -7,7 +7,8 @@ body {
 h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #a52222;
+    color: #d5d5d5;
+    text-decoration: underline;
 }
 
 h2 {
@@ -105,8 +106,10 @@ img {
 }
 
 .texto-destaque-resposta {
-    color: rgb(217, 255, 0);
-    background: #000;
+    color: rgb(0, 153, 255);
+    background: #6215aa;
+    font-size: 24px;
+    border-radius: 10px;
 }
 
 .texto-destaque-red {
