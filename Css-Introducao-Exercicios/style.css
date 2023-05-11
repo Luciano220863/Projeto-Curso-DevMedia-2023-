@@ -34,7 +34,7 @@ p {
 .secao-header {
     margin-top: 5px;
     padding-top: 0;
-    background: #000;
+    background: #979494;
     border: solid 1px #ffffff;
     border-radius: 10px;
 }
@@ -147,3 +147,7 @@ img {
 
 }
 
+a{
+    background: blue;
+    color: white;
+}

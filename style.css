@@ -1,4 +1,32 @@
-h1 {
-    color: rgb(128, 145);
-    background-color: #757575;
+
+
+
+
+
+
+
+a {
+    font-family: Arial;
+    font-style: bold;
+    color: #1122ff;
+    background-color: #c1c1c1;
+}
+
+a {
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(55, 55, 55);
+    background-color: rgb(55, 55, 55);
+}
+
+a {
+    font-family: Arial;
+    font-weight: bold;
+    color: blue;
+    background-color: gray;
+}
+
+a{
+    font-weight: bold;
+    font-style: ;
 }
