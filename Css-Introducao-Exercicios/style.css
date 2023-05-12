@@ -61,6 +61,7 @@ p {
     color: white;
     font-size: xx-large;
     border-radius: 10px;
+    text-decoration: underline;
 }
 
 .secao3 {
@@ -150,4 +151,11 @@ img {
 a{
     background: blue;
     color: white;
+}
+
+span {
+
+    color: white;
+
+    background-color:black;
 }
