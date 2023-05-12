@@ -1,4 +1,23 @@
-span {
+a {
     color: white;
-    background-color: black;
+    background-color: red;
+    text-size: 16px;
+}
+
+a {
+    color: white;
+    background-color: red;
+    font-size: 16px;
+}
+
+a {
+    color: red;
+    backgroundColor: white;
+    fontSize: 16;
+}
+
+a {
+    color: red;
+    background-color: white;
+    font-size: 16px;
 }
