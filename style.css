@@ -1,32 +1,11 @@
-
-
-
-
-
-
-
 a {
-    font-family: Arial;
-    font-style: bold;
-    color: #1122ff;
-    background-color: #c1c1c1;
-}
 
-a {
-    font-family: Arial;
-    font-weight: bold;
-    color: rgb(55, 55, 55);
-    background-color: rgb(55, 55, 55);
-}
+    background-color: blue;
 
-a {
-    font-family: Arial;
-    font-weight: bold;
-    color: blue;
-    background-color: gray;
-}
+    color: white;
 
-a{
     font-weight: bold;
-    font-style: ;
+
+    text-decoration: none;
+
 }
