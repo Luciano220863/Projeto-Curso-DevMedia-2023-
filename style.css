@@ -1,23 +1,18 @@
-a {
-    color: white;
-    background-color: red;
-    text-size: 16px;
+h1 {
+    font-size: 24px;
+    font-family: Arial;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: Arial;
+    color: gray;
+}
+
+p {
+    font-family: Arial;
 }
 
 a {
-    color: white;
-    background-color: red;
-    font-size: 16px;
-}
-
-a {
-    color: red;
-    backgroundColor: white;
-    fontSize: 16;
-}
-
-a {
-    color: red;
-    background-color: white;
-    font-size: 16px;
+    color: #ff2200;
 }
