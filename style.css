@@ -1,7 +1,9 @@
-p{
-    font-size: 28px;
+h1 {
+    font-size: 32px;
     font-family: Verdana;
-    text-align: center;
-    line-height: 42px;
+}
 
+p {
+    font-size: 24px;
+    font-family: Verdana;
 }
