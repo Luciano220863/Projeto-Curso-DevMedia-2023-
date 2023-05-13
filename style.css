@@ -7,3 +7,9 @@ p {
     font-size: 24px;
     font-family: Verdana;
 }
+
+span {
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
