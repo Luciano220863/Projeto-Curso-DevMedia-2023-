@@ -29,6 +29,8 @@ p {
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
     margin-left: 25px;
+    line-height: 20px;
+    font-size: 18px;
 }
 
 .secao-header {
@@ -149,7 +151,6 @@ img {
     background: #4bc007;
     text-align: center;
     border-radius: 5px;
-
 }
 
 a{
