@@ -140,6 +140,10 @@ img {
     color: white;
 }
 
+.texto-destaque-branco {
+    color: white;;
+}
+
 .texto-destaque-titulo {
     color: #f80505;
     background: #4bc007;

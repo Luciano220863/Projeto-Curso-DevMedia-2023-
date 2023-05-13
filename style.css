@@ -1,15 +1,11 @@
-h1 {
-    font-size: 32px;
-    font-family: Verdana;
+div {
+
+    color: red;
 }
 
-p {
-    font-size: 24px;
-    font-family: Verdana;
-}
+h3 {
 
-span {
-    font-weight: bold;
-    color: rgb(255, 0, 0);
-    text-decoration: underline;
+    color: white;
+
+    text-align: center;
 }
