@@ -1,5 +1,7 @@
-p {
-    font-size: 36px;
-    line-height: 48px;
-    text-align: right;
+h4 {
+    color: #787878;
+    background-color: #111000;
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
 }
