@@ -1,7 +1,6 @@
-h4 {
-    color: #787878;
-    background-color: #111000;
-    text-align: center;
-    text-decoration: none;
-    font-weight: normal;
+span {
+    font-size: 24px;
+    color: #789985;
+    font-weight: bold;
+    text-decoration: underline;
 }
