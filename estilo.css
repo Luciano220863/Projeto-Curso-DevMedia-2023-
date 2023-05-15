@@ -1,7 +1,8 @@
 h2 {
 
-    font-size: 32px;
-    font-family: Impact;
+    font-size: 28px;
+    font-family: Verdana;
+    text-decoration: none;
+    color: rgb(255, 245, 235);
     text-align: right;
-    text-decoration: overline;
 }
