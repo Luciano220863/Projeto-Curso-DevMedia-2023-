@@ -1,8 +1,7 @@
-p {
-    font-size: 18px;
-    font-family: Verdana;
-}
-
-span {
-    font-weight: bold;
+h1{
+    font-family: Tahoma;
+    font-size: 24px;
+    color: #757575;
+    text-decoration: underline;
+    text-align: right;
 }
