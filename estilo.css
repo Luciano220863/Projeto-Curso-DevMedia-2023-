@@ -1,8 +1,7 @@
-h2 {
+a {
+    color: white;
 
-    font-size: 28px;
-    font-family: Verdana;
-    text-decoration: none;
-    color: rgb(255, 245, 235);
-    text-align: right;
+    background-color: green;
+
+    font-size: 14px;
 }
