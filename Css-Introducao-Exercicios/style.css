@@ -8,18 +8,25 @@ h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #d5d5d5;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 38px;
     text-decoration: underline;
 }
 
 h2 {
     text-align: center;
-    color: rgb(217, 255, 0);
+    color: rgb(48, 59, 94);
     font-style: italic;
+    font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 15px;
 }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
     text-align: left;
     margin-left: 25px;
     text-decoration: underline;
@@ -29,8 +36,9 @@ p {
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
     margin-left: 25px;
-    line-height: 20px;
+    line-height: 25px;
     font-size: 18px;
+    font-style: italic;
 }
 
 .secao-header {
@@ -45,7 +53,7 @@ p {
     margin-top: 5px;
     padding-top: 0;
     background: #5F9EA0;
-    border: solid 1px #000;
+    border: solid 1px #fff;
     border-radius: 10px;
 }
 
@@ -53,7 +61,7 @@ p {
     margin-top: 5px;
     padding-top: 0;
     background: #878a8a;
-    border: solid 1px #000;
+    border: solid 1px #fff;
     border-radius: 10px;
 }
 
@@ -70,7 +78,7 @@ p {
     margin-top: 1px;
     padding-top: 0;
     background: #00BFFF;
-    border: solid 1px #000;
+    border: solid 1px #fff;
     border-radius: 10px;
 }
 
@@ -78,7 +86,7 @@ p {
     margin-top: 1px;
     padding-top: 0;
     background: #BDB76B;
-    border: solid 1px #000;
+    border: solid 1px #fff;
     border-radius: 10px;
 }
 
@@ -86,7 +94,7 @@ p {
     margin-top: 1px;
     padding-top: 0;
     background: #111111;
-    border: solid 1px #000;
+    border: solid 1px #fff;
     border-radius: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
@@ -94,7 +102,7 @@ p {
     color: #4bc007;
 }
 
-.tab{
+.tab {
     text-align: left;
 }
 
@@ -143,7 +151,8 @@ img {
 }
 
 .texto-destaque-branco {
-    color: white;;
+    color: white;
+    ;
 }
 
 .texto-destaque-titulo {
@@ -154,7 +163,7 @@ img {
 }
 
 
-a{
+a {
     background: blue;
     color: white;
 }
@@ -163,17 +172,13 @@ span {
 
     color: white;
 
-    background-color:black;
-}
-
-.square{
-    color: blue;
+    background-color: black;
 }
 
 .container {
     position: relative;
     padding: 15px;
-    max-width: 640px;
+    max-width: 450px;
     margin: 0 auto;
 }
 

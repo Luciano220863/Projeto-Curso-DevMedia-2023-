@@ -1,27 +1,4 @@
-h2 {
-    font-family: 'Impact';
-    font-size: 24px;
-    background-color: red;
-    text-decoration: overline;
-    text-alignment: center;
-}
-
-p {
-    font-family: 'Verdana'
-        font-size: 24 font-weight: bold color: #454545
-}
-
-a {
-    font-size: 18px;
-    font-weight: bold;
-    decoration: none;
-    color: rgb(1, 1, 1);
-    background-color: rgb(1, 1, 1);
-}
-
-p {
-    font-family: 'Verdana';
-    font-size: 24px;
-    font-weight: bold;
-    color: #454545;
+ul{
+    font-family: Verdana;
+    font-size: 28px;
 }
