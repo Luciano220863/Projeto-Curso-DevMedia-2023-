@@ -1,8 +1,5 @@
-div {
-    background-color: black;
-}
-
 p{
-    font-size: 18px;
-    color: white;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: left;
 }
