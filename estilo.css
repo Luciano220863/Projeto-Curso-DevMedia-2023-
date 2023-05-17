@@ -1,5 +1,9 @@
-a{
-    font-size: 18px;
-    color: #ffffff;
-    background-color: #009688;
+p{
+    color: #787878;
+    text-align: justify;
+}
+
+Link{
+    text-decoration: none;
+    font-size: 16px;
 }
