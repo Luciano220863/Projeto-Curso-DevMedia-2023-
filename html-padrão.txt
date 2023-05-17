@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../Css-Introducao-Exercicios/style.css">
+    <link rel="shortcut icon" href="./../favicon.png" type="image/x-icon">
+    <title>CSS: Introdução | Questão 8432</title>
+    <style>
+        .secao1, .secao2, .secao3, .secao4, .secao-html {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="secao-header">
+        <h1>Questão 8432</h1>
+        <h2>Uso incorreto de cores</h2>
+    </div>
+    <div>
+        <h2>Exemplo de codificação que não aplica as propriedades de cor de 
+forma correta:</h2>
+    </div>
+    
+</body>
+</html>

@@ -104,6 +104,11 @@ p {
 
 .tab {
     text-align: left;
+    background-color: cadetblue;
+    color: darkblue;
+    font-weight: bold;
+    line-height: 28px;
+    font-size: 26px;
 }
 
 img {
