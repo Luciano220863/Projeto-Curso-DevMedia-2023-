@@ -1,4 +1,8 @@
-ul{
-    font-family: Verdana;
-    font-size: 28px;
+div {
+    background-color: black;
+}
+
+p{
+    font-size: 18px;
+    color: white;
 }

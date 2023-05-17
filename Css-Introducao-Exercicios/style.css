@@ -114,6 +114,8 @@ img {
 
 .texto-destaque-blue {
     color: blue;
+    background: rgb(182, 182, 185);
+    font-weight: bold;
 }
 
 .texto-destaque-resposta {
@@ -121,37 +123,48 @@ img {
     background: #6215aa;
     font-size: 24px;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 .texto-destaque-red {
-    background-color: red;
-    color: white;
+    background-color: rgb(163, 156, 156);
+    color: red;
+    font-weight: bold;
 }
 
 .texto-destaque-fundoazul {
     background-color: rgb(8, 24, 247);
     color: white;
+    font-weight: bold;
 }
 
 .texto-destaque-fundopreto {
     color: #fff;
+    background-color: #000;
+    font-weight: bold;
 }
 
 .texto-destaque-fpreto {
     background-color: #000;
+    color: #878a8a;
+    font-weight: bold;
 }
 
 .texto-destaque-fbranco {
     background-color: #fff;
+    color: #000;
+    font-weight: bold;
 }
 
 .texto-destaque-fundoverde {
     background-color: rgb(14, 85, 14);
     color: white;
+    font-weight: bold;
 }
 
 .texto-destaque-branco {
     color: white;
+    font-weight: bold;
     ;
 }
 
@@ -160,8 +173,42 @@ img {
     background: #4bc007;
     text-align: center;
     border-radius: 5px;
+    font-weight: bold;
 }
 
+.texto-destaque-branco-fundo-preto{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+.texto-destaque-rgba{
+    color: rgba(48, 44, 44, 0.329);
+    background-color: rgba(5, 5, 25, 0.2);
+}
+
+.destaque-rgb-verm{
+    color: white;
+    background: rgb(255, 0, 0);
+}
+
+.destaque-rgb-verde{
+    color: white;
+    background: rgb(0, 255, 0);
+}
+
+.destaque-rgb-azul{
+    color: white;
+    background: rgb(0, 0, 255);
+}
+
+.marca-texto{
+    background-color: greenyellow;
+    color: #000;
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: underline;
+}
 
 a {
     background: blue;
@@ -169,10 +216,9 @@ a {
 }
 
 span {
-
-    color: white;
-
-    background-color: black;
+    color: black;
+    background-color: lightgray;
+    font-weight: bold;
 }
 
 .container {

@@ -9,9 +9,19 @@
     <link rel="shortcut icon" href="./../favicon.png" type="image/x-icon">
     <title>Nota explicativa - Aplicando CSS3</title>
     <style>
-        img { max-width: 550px; max-height:480px;}
-        .secao-html{ padding-left: 15px;}
-        div { padding-left: 10px; padding-right:10px}
+        img {
+            max-width: 550px;
+            max-height: 480px;
+        }
+
+        .secao-html {
+            padding-left: 15px;
+        }
+
+        div {
+            padding-left: 10px;
+            padding-right: 10px
+        }
     </style>
 </head>
 
@@ -36,108 +46,201 @@
             O valor de <span class="texto-destaque-red">font-weight</span> pode ser numérico ou uma palavra. Ambos
             correspondem a quão espessa será a fonte. <br><br>
 
-            Os valores numéricos são <span class="texto-destaque-fundoazul">100, 200, 300, 400, 500, 600, 700, 800 e 900</span>. <ins>Dentre eles, <span>400 corresponde a aparência padrão</span></ins> da maioria das fontes e 700 ao negrito.
+            Os valores numéricos são <span class="texto-destaque-fundoazul">100, 200, 300, 400, 500, 600, 700, 800 e
+                900</span>. <ins>Dentre eles, <span>400 corresponde a aparência padrão</span></ins> da maioria das
+            fontes e 700 ao negrito.
 
     </div> <br>
     <div class="secao4">
-                        <br> No <strong>Código 1</strong> vemos o exemplo de uma regra que utiliza <span class="texto-destaque-red">font-weight</span>.</p>
-    
-    <div class="secao-html">
-        <p>p {</p>
-        <p>font-weight: 400;</p>
-        <p>}</p>
-    </div><p>Código 1. Regra utilizando <span class="texto-destaque-red">font-weight</span></p><br>
+        <br> No <strong>Código 1</strong> vemos o exemplo de uma regra que utiliza <span
+            class="texto-destaque-red">font-weight</span>.</p>
+
+        <div class="secao-html">
+            <p>p {</p>
+            <p>font-weight: 400;</p>
+            <p>}</p>
+        </div>
+        <p>Código 1. Regra utilizando <span class="texto-destaque-red">font-weight</span></p><br>
     </div> <br>
-<div class="secao3">
-    <h3>Quando aplicados a elementos esses valores podem produzir o efeito observado na <span class="texto-destaque-fundoverde">Fig1</span>.</h3>
-    <center>
-        <img src="./../img/fig1.png" alt="fig1" title="Fig1. Aplicação dos valores de 100 a 900 em elementos p">
-    </center><br>
+    <div class="secao3">
+        <h3>Quando aplicados a elementos esses valores podem produzir o efeito observado na <span
+                class="texto-destaque-fundoverde">Fig1</span>.</h3>
+        <center>
+            <img src="./../img/fig1.png" alt="fig1" title="Fig1. Aplicação dos valores de 100 a 900 em elementos p">
+        </center><br>
     </div>
     <br>
     <div>
-        <p>A fonte <span>Roboto</span>, distribuída pela Google, suporta todos essas variações de peso e alguns outros estilos. <br> Demonstramos isso na <span>Fig2</span> retirada da página dessa fonte no site Google Fonts.</p>
+        <p>A fonte <span>Roboto</span>, distribuída pela Google, suporta todos essas variações de peso e alguns outros
+            estilos. <br> Demonstramos isso na <span>Fig2</span> retirada da página dessa fonte no site Google Fonts.
+        </p>
         <center>
             <img src="./../img/fig2.png" alt="fig2" title="Fig2. Demonstração de uma fonte que suporta muitos estilos">
         </center>
-        <p>Como podemos ver Roboto suporta todos os pesos, de 100 a 900, além de itálico, que é abordado na próxima seção.
-        
-        Dentre os valores numéricos, 400 e 700 são os mais utilizados. Eles correspondem, como mencionado, ao peso padrão e em negrito de uma fonte.
-        
-        Por esse motivo podemos usar a palavra-chave <mark>normal</mark> para 400 e <span>bold</span> para 700.</p>
+        <p>Como podemos ver Roboto suporta todos os pesos, de 100 a 900, além de itálico, que é abordado na próxima
+            seção.
+
+            Dentre os valores numéricos, 400 e 700 são os mais utilizados. Eles correspondem, como mencionado, ao peso
+            padrão e em negrito de uma fonte.
+
+            Por esse motivo podemos usar a palavra-chave <mark>normal</mark> para 400 e <span>bold</span> para 700.</p>
         <h2>Exemplos</h2>
- 
+
         <div class="secao3">
-                    <p>A seguir encontramos alguns exemplos práticos. Por exemplo, para remover negrito aplicando 400 ou normal a uma elemento, utilizamos o <span>Código 2</span>.</p>
-                    <div class="secao-html">
-                        <p>h1 {</p>
-                        <p>font-weight: 400;</p>
-                        <p>}</p>
-                        
-                        <p>/* ou */</p>
-                        
-                        <p>h1 {</p>
-                        <p>font-weight: normal;</p>
-                        <p>}</p>
-                    </div> <br>
-                    <p><span>Código 2</span>. Removendo negrito do elemento h1</p>
+            <p>A seguir encontramos alguns exemplos práticos. Por exemplo, para remover negrito aplicando 400 ou normal
+                a uma elemento, utilizamos o <span>Código 2</span>.</p>
+            <div class="secao-html">
+                <p>h1 {</p>
+                <p>font-weight: 400;</p>
+                <p>}</p>
+
+                <p>/* ou */</p>
+
+                <p>h1 {</p>
+                <p>font-weight: normal;</p>
+                <p>}</p>
+            </div> <br>
+            <p><span>Código 2</span>. Removendo negrito do elemento h1</p>
         </div>
-<p>No <span>Código 2</span> removemos o negrito do elemento h1 que por padrão é aplicado pelo navegador. <br>
+        <p>No <span>Código 2</span> removemos o negrito do elemento h1 que por padrão é aplicado pelo navegador. <br>
 
 
-        <div class="secao3">
+        <div class="secao4">
             <h3>No <span>Código 3</span> temos a aplicação de negrito com bold ou 700.</h3>
-              <div class="secao-html">
+            <div class="secao-html">
                 <p>p {</p>
                 <p>font-weight: 700;</p>
                 <p>}</p>
-        
+
                 <p>/* ou */</p>
-        
+
                 <p>p {</p>
                 <p>font-weight: bold;</p>
                 <p>}</p>
             </div> <br>
             <p><span>Código 3</span>. Aplicação de negrito ao elemento <span class="texto-destaque-red">p</span></p>
-    </div> <br>
-    <div class="secao-header">
-        <h1>Itálico</h1>
-        <p>Itálico é um estilo obtido com a propriedade <mark>font-style</mark>, utilizando o valor <span>italic</span>.
-    </div> <br>
-    <div>
-        <p>No <span>Código 4</span> vemos como utilizar essa propriedade em uma regra.</p>
-        <p>O resultado desse código pode ser visto na <span>Figura 3</span>.</p>
-        <center><img src="./../img/fig3.png" alt="fig3" title="Figura 3. font-style: italic aplicado a um elemento p"></center>
-        <div class="subtitulo">
-            <h2>Exemplos</h2>
-        </div>
-        
-    </div>
-    <br>
-    <div class="secao3">
-        <h3>Com o <span>Código 5</span> aplicamos o itálico a um elemento.</h3>
-        <div class="secao-html">
-            <p>p {</p>
-            <p><span>font-style: italic;</span></p>
-            <p>}</p>
-            </div><br>
-    </div><br>
-    <div class="secao4"><br>
-        <h3>Com o <span>Código 6</span> removemos o itálico de um elemento.</h3>
-        <div class="secao-html">
-            <p>p {</p>
-            <p><span>font-style: normal;</span></p>
-            <p>}</p>
         </div> <br>
-    </div>
+        <div class="secao-header">
+            <h1>Itálico</h1>
+            <p>Itálico é um estilo obtido com a propriedade <mark>font-style</mark>, utilizando o valor
+                <span>italic</span>.
+        </div> <br>
+        <div>
+            <p>No <span>Código 4</span> vemos como utilizar essa propriedade em uma regra.</p>
+            <p>O resultado desse código pode ser visto na <span>Figura 3</span>.</p>
+            <center><img src="./../img/fig3.png" alt="fig3"
+                    title="Figura 3. font-style: italic aplicado a um elemento p"></center>
+            <div class="subtitulo">
+                <h2>Exemplos</h2>
+            </div>
+
+        </div>
+        <br>
+        <div class="secao3">
+            <h3>Com o <span>Código 5</span> aplicamos o itálico a um elemento.</h3>
+            <div class="secao-html">
+                <p>p {</p>
+                <p><span>font-style: italic;</span></p>
+                <p>}</p>
+            </div><br>
+        </div><br>
+        <div class="secao4"><br>
+            <h3>Com o <span>Código 6</span> removemos o itálico de um elemento.</h3>
+            <div class="secao-html">
+                <p>p {</p>
+                <p><span>font-style: normal;</span></p>
+                <p>}</p>
+            </div> <br>
+        </div>
+        <div class="secao1">
+            <p>Além de <span>normal</span> e <mark>italic</mark>, <mark>font-style</mark> também pode receber os valores
+                <mark>oblique</mark>, mas poucas fontes dão suporte a ele.</p>
+            <p>Ao usar <mark>oblique</mark> em uma fonte que não suportar esse valor <mark>italic</mark> será
+                automaticamente aplicado em seu lugar.</p>
+        </div>
+        <div class="subtitulo">
+            <h2>Cor</h2>
+        </div>
+        <div class="secao2">
+            <p>A cor de um texto é customizada utilizando a propriedade <span>color</span>, que pode receber valores
+                numéricos ou textuais. <br>
+
+                Os valores numéricos que podemos utilizar são escritos em hexadecimal e prefixados com cerquilha <span
+                    class="texto-destaque-red">(#)</span>. O intervalo de valor vai de <span
+                    class="texto-destaque-br">#000000</span> até <span class="texto-destaque-branco">#ffffff</span>.
+                <br>
+
+                Alguns exemplo são, <span>#000</span> (preto) e <span class="texto-destaque-branco">#fff</span>
+                (branco). <br>
+
+                Podemos ainda usar valores textuais, que são nomes de cores em inglês, como black ou white. Esses nomes
+                são pré-definidos e uma lista completa deles pode ser consultada <a
+                    href="https://www.w3schools.com/colors/default.asp" target="_blank" title="Endereço oficial da w3schools">aqui</a>. <br>
+
+
+            </p>
+            <div class="secao4">
+                <h3>No Código 7 vemos dois exemplo de como utilizar color em uma regra.</h3>
+                <div class="secao-html">
+                    <p>p {</p>
+                    <p>color: red;</p>
+                    <p>}</p>
+                    <br>
+                    <p>p {</p>
+                    <p>color: <span class="texto-destaque-red">#ff0000</span>;</p>
+                    <p>}</p>
+                </div> <br>
+            </div><br>
+        </div> <br>
+        <br>
     <div class="secao1">
-       <p>Além de <span>normal</span> e <mark>italic</mark>, <mark>font-style</mark> também pode receber os valores <mark>oblique</mark>, mas poucas fontes dão suporte a ele.</p> 
-       <p>Ao usar <mark>oblique</mark> em uma fonte que não suportar esse valor <mark>italic</mark> será automaticamente aplicado em seu lugar.</p>
-    </div>
-    <br>
-    <div class="subtitulo">
-        <h2>Cor</h2>
-    </div>
+        <p>Na Figura 4 está o resultado desta cor aplicada a um elemento p.</p>
+        <center>
+            <img src="./../img/fig4.png" alt="fig4" title="Figura 4. Cor aplicada ao elemento p">
+        </center>
+        <p>Os valores usados neste exemplo produzem a mesma cor vermelha, mas na primeira regra usamos o nome da cor e na segunda o
+        seu valor hexadecimal.</p>
+
+
+    </div><br>
+    <div class="secao2">
+        <h2>Funções de cor</h2>
+        <p>Algumas propriedade podem receber o resultado de uma função
+            como valor. No caso de color, essas funções são <span class="texto-destaque-blue">rgb</span>,
+            <span class="texto-destaque-rgba">rgba</span> e <span>hsl</span>.</p>
+            <p>Aqui vale lembrar que o CSS não é uma linguagem de programação, mas dispõe de certas funções utilizadas para a geração
+            de alguns valores, como uma cor específica, por exemplo.</p>
+            <p>Vamos conhecer span class="texto-destaque-blue">rgb</span> e <span class="texto-destaque-rgba">rgba</span>, as funções mais utilizadas nesse contexto, mas falaremos também das aplicações da variante <span>hsl</span></p>
+        </div>
+        <div class="secao-header">
+            <center>
+                <h1>rgb e rgba</h1>
+            </center>
+        </div> <br>
+        <div class="secao3"><br>
+            <div class="secao1">
+<p>RGB é um padrão de cor familiar a designers, onde se usa red (vermelho), green (verde) e blue (azul) para gerar uma cor.</p>
+<p>A função rgb(red, green, blue) recebe como parâmetro três valores de 0 a 255 que correspondem a essas cores.</p>
+<p>Dessa forma, para produzir apenas vermelho usamos <span class="destaque-rgb-verm">rgb(255, 0, 0)</span>, verde <span class="destaque-rgb-verde">rgb(0, 255, 0)</span> e azul <span class="destaque-rgb-azul">rgb(0, 0, 255)</span>.</p>
+<p>Combinando valores para essas três cores podemos chegar a outras <span class="marca-texto">16777216</span>.</p>
+<div class="secao4">
+    <h3>No <span>Código 8</span> vemos um exemplo que usa <span class="texto-destaque-blue">rgb</span> para definir a cor de um texto.</h3>
+    <div class="secao-html">
+        <p>p {</p>
+        <p>color: <span class="texto-destaque-fundoverde">rgb(81, 155, 0)</span>;</p>
+        <p>}</p>
+    </div> <br>
+    <p>Nesse exemplo os valores correspondem a red=81, green=155 e blue=0 e como resultado temos a cor verde da Fig5.</p>
+    <center>
+        <img src="./../img/fig5.png" alt="fig5" title="Figura 5. Cor verde correspondente a red=81, green=155 e blue=0">
+    </center>
+</div> 
+<p>Além de rgb também podemos usar a função rgba para produzir uma cor. A diferença entre elas é que rgba recebe mais um parâmetro chamado <span class="marca-texto">alpha</span>, que determina a opacidade da cor.</p>
+</div> <br>
+
+
+        </div>
+
 
 </body>
 
