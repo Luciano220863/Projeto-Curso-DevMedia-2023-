@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./../../Css-Introducao-Exercicios/style.css">
     <link rel="shortcut icon" href="./../favicon.png" type="image/x-icon">
-    <title>CSS: Introdução | Questão 8248</title>
+    <title>CSS: Introdução | Questão     </title>
     <style>
         .secao-html,
         .secao1,
