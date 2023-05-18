@@ -1,13 +1,4 @@
-h3 {
-
-    color: #454545;
-
-    font-family: Arial;
-}
-
-h4 {
-
-    color: #787878;
-
-    font-size: 16px;
+h2 {
+    color: blue;
+    fontSize: 18px;
 }
