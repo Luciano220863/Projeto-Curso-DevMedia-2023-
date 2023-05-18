@@ -1,13 +1,8 @@
-h1 {
-    font-size: 32px;
-    font-family: Impact;
-    font-weight: normal;
-    text-align: center;
-    text-decoration: underline;
-}
-
-p {
-    font-size: 24px;
-    font-family: Verdana;
-    text-align: justify;
+a {
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+    background-color: gray;
 }
