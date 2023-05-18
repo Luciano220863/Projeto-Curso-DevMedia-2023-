@@ -1,8 +1,7 @@
-a {
-    font-size: 18px;
-    font-family: Arial;
-    font-weight: bold;
-    text-decoration: none;
-    color: blue;
-    background-color: gray;
+h2 {
+    font-size: 28px;
+    font-family: verdana;
+    font-weight: normal;
+    color: rgb(255, 245, 235);
+    text-align: center;
 }
