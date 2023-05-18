@@ -8,15 +8,15 @@ h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #d5d5d5;
-    font-size: 36px;
+    font-size: 25px;
     font-weight: bold;
-    line-height: 38px;
+    line-height: 27px;
     text-decoration: underline;
 }
 
 h2 {
     text-align: center;
-    color: rgb(48, 59, 94);
+    color: rgb(200, 209, 238);
     font-style: italic;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -29,7 +29,6 @@ h5,
 h6 {
     text-align: left;
     margin-left: 25px;
-    text-decoration: underline;
 }
 
 p {
@@ -104,11 +103,12 @@ p {
 
 .tab {
     text-align: left;
-    background-color: cadetblue;
-    color: darkblue;
+    background-color: rgb(55, 57, 170);
+    color: rgb(102, 218, 160);
     font-weight: bold;
-    line-height: 28px;
-    font-size: 26px;
+    line-height: 20px;
+    font-size: 22px;
+    text-decoration: none;
 }
 
 img {
