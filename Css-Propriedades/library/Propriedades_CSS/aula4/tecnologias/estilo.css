@@ -1,0 +1,26 @@
+div {
+    width: 500px;
+}
+
+h1 {
+    font-size: 28px;
+    font-family: Verdana;
+}
+
+img {
+    width: 150px;
+    height: 170px;
+}
+
+p {
+    font-size: 18px;
+    font-family: Verdana;
+}
+
+a {
+    font-size: 18px;
+    font-family: Verdana;
+    background-color: #006db8;
+    color: #fff;
+    text-decoration: none;
+}

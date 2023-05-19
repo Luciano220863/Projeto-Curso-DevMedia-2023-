@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../Css-Propriedades/style.css">
+    <link rel="shortcut icon" href="./../../Css-Propriedades/favicon.ico" type="image/x-icon">
+    <title>1. Conceito de propriedades</title>
+        <style>
+            .secao-html,
+            .secao1,
+            .secao2,
+            .secao3,
+            .secao4,
+            .tab {
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border: solid 1px white;
+                border-radius: 10px;
+            }
+        
+            img {
+                width: 650px;
+                height: 480px;
+            }
+        
+            h1 {
+                text-align: center;
+                font-weight: bold;
+            }
+        
+            h2 {
+                text-align: left;
+                font-weight: 200;
+            }
+        </style>
+</head>
+<body>
+    <div class="secao-header">
+        <h1>1. Conceito de propriedades</h1>
+    </div><br>
+    <div class="secao1">
+        <p>No curso de <a href="https://www.devmedia.com.br/curso/css-introducao/2426" target="_blank" rel="noopener noreferrer">Introdução ao CSS</a>  vimos alguns conceitos introdutórios do CSS que servem de base para o aprendizado nessa linguagem. <br>        
+        Agora vamos abordar as propriedades no CSS e como elas alteram a aparência de um elemento. Vamos iniciar relembrando o
+        conceito de propriedades no flow a seguir:</p>
+    </div><br>
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="./../img/1.png" alt="1" class="item current-item">
+                <img src="./../img/2.png" alt="2" class="item current-item">
+                <img src="./../img/3.png" alt="3" class="item current-item">
+                <img src="./../img/4.png" alt="4" class="item current-item">
+                <img src="./../img/5.png" alt="5" class="item current-item">
+                <img src="./../img/6.png" alt="6" class="item current-item">
+                <img src="./../img/7.png" alt="7" class="item current-item">
+            </div>
+        </div>
+    </div><br>
+    <div class="secao4">
+        <h3>Nos <span>Códigos 1 e 2</span> seguem os códigos que foram usados no flow.</h3>
+        <h5><span>Código 1</span>. Código HTML</h5>
+        <div class="secao-html">
+            <p>1 | &lt;a href=”#contato”&gt;Contato*lt;/a&gt;</p>
+        </div>
+    </div> <br>
+    <div class="secao3">
+        <h5><span>Código 2</span>. Código CSS</h5>
+        <div class="secao-html">
+            <p>1 | a {</p>
+            <p>2 | font-size: 18px;</p>
+            <p>3 | color: white;</p>
+            <p>4 | background-color: red;</p>
+            <p>5 | }</p>
+        </div>
+    </div><br>
+    <div>
+        <p><span>Na Figura 1</span> vemos que cada propriedade altera um aspecto visual do elemento. Enquanto uma propriedade altera o tamanho da fonte, temos outras que modificam as cores (do texto e de fundo) do elemento.</p>
+        <center>
+            <img src="./../img/fig1.png" width="450" alt="fig1" title="Figura 1. Propriedades alterando características do elemento">
+        </center>
+    </div> <br>
+    <div class="secao1">
+        <p>As propriedades representam características dos elementos das páginas web. Quando há uma propriedade com um valor definido, temos um estilo do elemento sendo configurado, o que altera sua aparência na página</p></div>
+
+
+    
+</body>
+</html>
