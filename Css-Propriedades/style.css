@@ -33,7 +33,6 @@ h6 {
 
 p {
     font-family: 'Times New Roman', Times, serif;
-    text-align: left;
     margin-left: 25px;
     line-height: 25px;
     font-size: 18px;
@@ -188,8 +187,8 @@ img {
 }
 
 .texto-destaque-rgba{
-    color: rgba(48, 44, 44, 0.329);
-    background-color: rgba(5, 5, 25, 0.2);
+    color: rgba(246, 244, 248, 0.541);
+    background-color: rgba(7, 7, 8, 0.685);
 }
 
 .destaque-rgb-verm{
@@ -245,7 +244,7 @@ span {
     right: auto;
     bottom: 0;
     font-size: 20px;
-    line-height: 450px;
+    line-height: 325px;
     width: 40px;
     color: #fff;
     transition: all 600ms ease-in-out;

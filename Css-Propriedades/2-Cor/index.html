@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../style.css">
+    <link rel="shortcut icon" href="./../favicon.ico" type="image/x-icon">
+    <title>2. Cor</title>
+    <style>
+        .secao-html,
+        .secao1,
+        .secao2,
+        .secao3,
+        .secao4,
+        .tab {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: solid 1px white;
+            border-radius: 10px;
+        }
+
+
+        h1 {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        h2 {
+            text-align: left;
+            font-weight: 200;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="secao-header">
+        <h1>2. Cor</h1>
+    </div>
+    <div>
+        <p>Uma coisa muito importante na hora de estilizar uma página web é saber alterar as cores de um elemento. Para
+            isso, temos duas propriedades muito conhecidas no CSS que abordamos no curso anterior: <span
+                class="texto-destaque-rgba">color</span> e <span class="texto-destaque-rgba">background-color</span>.
+        </p>
+        <p>Antes de abordarmos as propriedades de forma mais detalhada, vamos relembrar no flow a seguir sobre alguns
+            padrões de cores e também como usar cores no CSS:</p>
+    </div><br>
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="./img/1.png" alt="1" class="item current-item">
+                <img src="./img/2.png" alt="2" class="item current-item">
+                <img src="./img/3.png" alt="3" class="item current-item">
+                <img src="./img/4.png" alt="4" class="item current-item">
+                <img src="./img/5.png" alt="5" class="item current-item">
+                <img src="./img/6.png" alt="6" class="item current-item">
+                <img src="./img/7.png" alt="7" class="item current-
+                                item">
+                <img src="./img/8.png" alt="8" class="item current-
+                                item">
+            </div>
+        </div>
+    </div>
+    <div>
+        <p>Agora vamos abordar as propriedades, começando pela propriedade color, que será vista no flow a seguir:</p>
+    </div>
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="./img/9.png" alt="9" class="item current-item">
+                <img src="./img/10.png" alt="10" class="item current-item">
+                <img src="./img/11.png" alt="11" class="item current-item">
+                <img src="./img/12.png" alt="12" class="item current-item">
+                <img src="./img/13.png" alt="13" class="item current-item">
+                <img src="./img/14.png" alt="14" class="item current-item">
+                <img src="./img/15.png" alt="15" class="item current-item">
+            </div>
+        </div>
+        <center>
+            <p>Nos Códigos 1 e 2 seguem os códigos que foram usados no flow.</p>
+        </center>
+    </div>
+    <div class="secao2">
+        <center>
+            <p><span>Código 1</span>. Código do index.html</p>
+        </center>
+        <div class="secao-html">
+            <p>&lt;!DOCTYPE HTML&gt;</p>
+            <p>&lt;html&gt;</p>
+
+            <p>&lt;head&gt;</p>
+            <p>&lt;meta charset="UTF-8"&gt;</p>
+            <p>&lt;title>Propriedades de cor&lt;/title&gt;</p>
+            <p>&lt;link rel="stylesheet" href="estilo.css"&gt;</p>
+            <p>&lt;/head&gt;</p>
+
+            <p>&lt;body&gt;</p>
+            <p>&lt;h1>Propriedades de cor&lt;/h1&gt;</p>
+            <p>&lt;p>Temos duas propriedades muito utilizadas no CSS para manipular cores: color e
+                background-color.&lt;/p&gt;</p>
+            <p>&lt;/body&gt;</p>
+
+            <p>&lt;/html&gt;</p>
+        </div>
+    </div><br>
+    <div class="secao4">
+        <center>
+            <p><span>Código 2</span>. Código estilo.css</p>
+        </center>
+        <div class="secao-html">
+            <p>h1 {</p>
+            <p>color: blue;</p>
+            <p>}</p>
+
+            <p>p {</p>
+            <p>color: red;</p>
+            <p>}</p>
+        </div>
+        <center>
+            <p>Na <span>Figura 1</span> vemos que a propriedade color é responsável por alterar a cor dos elementos de
+                texto. Basta utilizar a
+                propriedade color e o valor da cor que se deseja definir no texto.</p>
+        </center>
+    </div><br>
+    <div>
+        <center>
+            <img src="img/fig1.png" alt="fig1" title="Figura 1. Alterando a cor dos textos">
+        </center>
+    </div>
+    <center>
+        <p>Agora veremos a propriedade background-color no flow a seguir:</p>
+    </center>
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="./img/16.png" alt="16" class="item current-item">
+                <img src="./img/17.png" alt="17" class="item current-item">
+                <img src="./img/18.png" alt="18" class="item current-item">
+                <img src="./img/19.png" alt="19" class="item current-item">
+                <img src="./img/20.png" alt="20" class="item current-item">
+                <img src="./img/21.png" alt="21" class="item current-item">
+                <img src="./img/22.png" alt="22" class="item current-item">
+                <img src="./img/23.png" alt="23" class="item current-item">
+                <img src="./img/24.png" alt="24" class="item current-item">
+                <img src="./img/25.png" alt="25" class="item current-item">
+            </div>
+        </div>
+    </div><br>
+    <div>
+        <center>
+            <p>Nos <span>Códigos 3 e 4</span> conferimos a codificação do primeiro
+                exemplo, e nos Códigos 5 e 6 conferimos do segundo exemplo.</p>
+        </center>
+    </div>
+    <div class="secao3">
+        <center>
+            <p><span>Código 3</span>. Código do index.html do primeiro exemplo</p>
+        </center>
+        <div class="secao-html">
+            <p>&lt;!DOCTYPE HTML&gt;</p>
+            <p>&lt;html&gt;</p>
+            <p>&lt;head&gt;</p>
+            <p>&lt;meta charset="UTF-8"&gt;</p>
+            <p>&lt;title>Propriedades de cor&lt;/title&gt;</p>
+            <p>&lt;link rel="stylesheet" href="estilo.css"&gt;</p>
+            <p>&lt;/head&gt;</p>
+            <p>&lt;body&gt;</p>
+            <p>&lt;h1&gt;Guia de CSS&lt;/h1&gt;</p>
+            <p>&lt;p&gt;Aprenda o que é o CSS e como ele funciona. Comece a criar os seus primeiros estilos formatando
+                elementos de texto.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Vem aprender CSS com a DevMedia. No link abaixo você confere mais sobre essa linguagem de
+                estilo.&lt;/p&gt;</p>
+            <p>&lt;a href="<ins>https://www.devmedia.com.br/css/</ins>"&gt;<span class="texto-destaque-blue">Guia de
+                    CSS</span>&lt;/a&gt;</p>
+            <p>&lt;/body&gt;</p>
+            <p>&lt;/html&gt;</p>
+        </div>
+    </div><br>
+    <div class="secao4">
+        <center>
+            <p><span>Código 4</span>. Código estilo.css do primeiro exemplo.</p>
+        </center>
+        <div class="secao-html">
+            <p>h1 {</p>
+            <p>font-size: 24px;</p>
+            <p>}</p>
+            <br>
+            <p>p {</p>
+            <p>font-size: 18px;</p>
+            <p>}</p>
+            <br>
+            <p>a {</p>
+            <p>font-size: 18px;</p>
+            <p>color: white;</p>
+            <p>background-color: green;</p>
+            <p>}</p>
+        </div><br>
+    </div> <br>
+    <div class="secao3">
+        <center>
+            <p><span>Código 5</span>. Código do index.html do segundo exemplo</p>
+        </center>
+        <div class="secao-html">
+            <p>&lt;!DOCTYPE HTML&gt;</p>
+            <p>&lt;html&gt;</p>
+            <p>&lt;head&gt;</p>
+            <p>&lt;meta charset="UTF-8"&gt;</p>
+            <p>&lt;title&gt;Tecnologias front-end&lt;/title&gt;</p>
+            <p>&lt;link rel="stylesheet" href="estilo.css"&gt;</p>
+            <p>&lt;/head&gt;</p>
+            <p>&lt;body&gt;</p>
+            <p>&lt;h1&gt;Tecnologias front-end&lt;/h1&gt;</p>
+            <p>&lt;h2&gt;HTML, CSS e JavaScript estão em alta no mercado&lt;/h2&gt;</p>
+            <p>&lt;div&gt;</p>
+            <p>&lt;p&gt;Para se tornar um desenvolvedor front-end você precisará conhecer as seguintes tecnologias:
+                HTML, CSS e JavaScript. Com elas é possível construir aplicações web e atender a demanda que o
+                mercado pede.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Abaixo você tem um plano de estudo com essas tecnologias, clique no link e conheça cada uma
+                delas de maneira mais aprofundada.&lt;/p&gt;</p>
+            <p>&lt;a href="https://www.devmedia.com.br/programacao/front-end">Plano de estudo Front-End&lt;/a&gt;
+            </p>
+            <p>&lt;/div&gt;</p>
+            <p>&lt;/body&gt;</p>
+            <p>&lt;/html&gt;</p>
+        </div>
+    </div><br>
+    <div class="secao1">
+        <center>
+            <p><span>Código 6</span>. Código estilo.css do segundo exemplo.</p>
+        </center>
+        <div class="secao-html">
+            <p>h1 {</p>
+            <p>font-size: 32px;</p>
+            <p>}</p>
+            <br>
+            <p>h2 {</p>
+            <p>font-size: 24px;</p>
+            <p>}</p>
+            <br>
+            <p>div {</p>
+            <p>background-color: <span class="texto-destaque-fundoazul">#0000ff</span>;</p>
+            <p>}</p>
+            <br>
+            <p>p {</p>
+            <p>font-size: 18px;</p>
+            <p>color: <span class="texto-destaque-branco-fundo-preto">#ffffff</span>;</p>
+            <p>}</p>
+            <br>
+            <p>a {</p>
+            <p>font-size: 18px;</p>
+            <p>color: <span class="texto-destaque-branco-fundo-preto">#ffffff</span>;</p>
+            <p>}</p>
+        </div>
+    </div><br>
+    <div>
+        No flow a seguir veremos como mudar a cor de fundo da tag body,
+        que é a tag que contém todos os elementos que são visíveis na tela:
+    </div>
+    <div class="container">
+        <button class="arrow-left control" aria-label="Previous image">◀</button>
+        <button class="arrow-right control" aria-label="Next Image">▶</button>
+        <div class="gallery-wrapper">
+            <div class="gallery">
+                <img src="./img/26.png" alt="26" class="item current-item">
+                <img src="./img/27.png" alt="27" class="item current-item">
+                <img src="./img/28.png" alt="28" class="item current-item">
+                <img src="./img/29.png" alt="29" class="item current-item">
+                <img src="./img/30.png" alt="30" class="item current-item">
+                <img src="./img/31.png" alt="31" class="item current-item">
+            </div>
+        </div>
+    </div>
+    <div>
+        <h3>Nos Códigos 7 e 8 seguem os códigos que foram usados no flow.</h3>
+    </div>
+    <div class="secao3">
+        <center>
+            <p><span>Código 7</span>. Código do index.html</p>
+        </center>
+        <div class="secao-html">
+            <p>&lt;!DOCTYPE HTML&gt;</p>
+            <p>&lt;html&gt;</p>
+            <p>&lt;head&gt;</p>
+            <p>&lt;meta charset="UTF-8"&gt;</p>
+            <p>&lt;title>Propriedade CSS&lt;/title&gt;</p>
+            <p>&lt;link rel="stylesheet" href="estilo.css"&gt;</p>
+            <p>&lt;/head&gt;</p>
+            <p>&lt;body&gt;</p>
+            <p>&lt;h1&gt;Background-color&lt;/h1&gt;</p>
+            <p>&lt;p&gt;Utilizamos essa propriedade para alterar a cor do plano de fundo, seja de um elemento ou do
+                documento como um todo. <br>
+                Para isso, basta atribuir a cor desejada à propriedade background-color, declarada dentro do seletor no
+                qual ela deve ser aplicada.&lt;/p&gt;</p>
+            <p>&lt;/body&gt;</p>
+            <p>&lt;/html&gt;</p>
+        </div>
+    </div><br>
+    <div class="secao4">
+        <center>
+            <p><span>Código 8</span>. Código estilo.css</p>
+        </center>
+        <div class="secao-html">
+            <p>body {</p>
+            <p>background-color: <span class="texto-destaque-fundoazul">#1053ac</span>;</p>
+            <p>color: <span class="texto-destaque-branco-fundo-preto">#ffffff</span>;</p>
+            <p>}</p>
+            <br>
+            <p>p {</p>
+            <p>font-size: 18px;</p>
+            <p>color: <span class="texto-destaque-branco-fundo-preto">#ffffff</span>;</p>
+            <p>}</p>
+        </div><br>
+    </div> <br>
+    <div>
+        <h3>Abaixo vemos a execução do código de um dos exemplos vistos na aula:</h3>
+    </div>
+    <div class="secao2">
+        <h3>Código html</h3>
+        <div class="secao-html">
+            <p>&lt;!DOCTYPE HTML&gt;</p>
+            <p>&lt;html&gt;</p>
+            <p>&lt;head&gt;</p>
+            <p>&lt;meta charset="UTF-8"&gt;</p>
+            <p>&lt;title&gt;Tecnologias Front-End&lt;/title&gt;</p>
+            <p>&lt;link rel="stylesheet" href="estilo.css"&gt;</p>
+            <p>&lt;/head&gt;</p>
+            <p>&lt;body&gt;</p>
+            <p>&lt;h1&gt;Tecnologias front-end&lt;/h1&gt;</p>
+            <p>&lt;h2&gt;HTML, CSS e JavaScript estão em alta no mercado&lt;/h2&gt;</p>
+            <p>&lt;div&gt;</p>
+            <p>&lt;p&gt;Para se tornar um desenvolvedor front-end você precisará conhecer as seguintes tecnologias:
+                HTML, CSS e JavaScript. <br> Com elas é possível construir aplicações web e atender a demanda que o
+                mercado pede.&lt;/p&gt;</p>
+            <p>&lt;p&gt;Abaixo você tem um plano de estudo com essas tecnologias, clique no link e conheça cada uma
+                delas de maneira mais aprofundada.&lt;/p&gt;</p>
+            <p>&lt;a href="https://www.devmedia.com.br/programacao/front-end"&gt;Plano de estudo Front-End&lt;/a&gt;</p>
+            <p>&lt;/div&gt;</p>
+            <p>&lt;/body&gt;</p>
+            <p>&lt;/html&gt;</p>
+        </div>
+    </div>
+    </div><br>
+    <h3>Abaixo vemos a execução do código de um dos exemplos vistos na aula:</h3>
+    </div>
+    <div class="secao3">
+        <h3>Código CSS</h3>
+        <div class="secao-html">
+            <p>h1 {</p>
+            <p>font-size: 32px;</p>
+            <p>}</p>
+            <br>
+
+            <p>h2 {</p>
+            <p>font-size: 24px;</p>
+            <p>}</p>
+            <br>
+
+            <p>div {</p>
+            <p>background-color: <span class="texto-destaque-fundoazul">#0000ff</span>;</p>
+            <p>}</p>
+            <br>
+            <p>p {</p>
+            <p>font-size: 18px;</p>
+            <p>color: <span class="texto-destaque-branco-fundo-preto">#ffffff</span>;</p>
+            <p>}</p>
+            <br>
+
+            <p>a {</p>
+            <p>font-size: 18px;</p>
+            <p>color: <span class="texto-destaque-branco-fundo-preto">#ffffff</span>;</p>
+            <p>}</p>
+
+        </div><br>
+
+        <div>
+            <center>
+                <img src="./../../Css-Propriedades/img/Imagem1.png" width="1650" alt="Imagem1">
+            </center>
+        </div>
+        <div>
+            <p>Trabalhar com cores é essencial para o desenvolvedor front-end. Vimos que no CSS temos duas formas para manipular cores
+            de elementos. Uma delas é com a propriedade color, onde alteramos a cor dos textos e a outra forma é com a propriedade
+            background-color, que nos permite mudar a cor de fundo dos elementos.</p>
+        </div>
+
+
+</body>
+
+</html>

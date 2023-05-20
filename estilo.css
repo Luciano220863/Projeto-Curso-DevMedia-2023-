@@ -1,4 +1,21 @@
-img {
-    width: 300px;
-    height: 200px;
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+div {
+    background-color: #0000ff;
+}
+
+p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+a {
+    font-size: 18px;
+    color: #ffffff;
 }
