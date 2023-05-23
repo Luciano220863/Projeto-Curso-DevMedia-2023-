@@ -1,18 +1,9 @@
-div {
-    border: 5px solid #ff2200;
-    background-color: #e5e5a8;
-    height: 100px;
-    margin-top: 30px;
-}
+p {
+    width: 700px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: Verdana;
+    line-height: 28px;
+    color: #787878;
 
-.opcao1 {
-    border: 1px solid;
-}
-
-.opcao2 {
-    border: solid #454545;
-}
-
-.opcao3 {
-    border: 1px #454545;
 }
