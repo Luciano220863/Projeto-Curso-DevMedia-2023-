@@ -4,3 +4,15 @@ div {
     height: 100px;
     margin-top: 30px;
 }
+
+.opcao1 {
+    border: 1px solid;
+}
+
+.opcao2 {
+    border: solid #454545;
+}
+
+.opcao3 {
+    border: 1px #454545;
+}
