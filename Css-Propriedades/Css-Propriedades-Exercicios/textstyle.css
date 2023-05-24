@@ -1,6 +1,6 @@
-img {
-    width: 800px;
-    height: 400px;
-    margin-top: 15px;
-
+a {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 30px;
 }
