@@ -1,6 +1,14 @@
-a {
-    border-top-left-radius: 25px;
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 30px;
+h1{
+    font-size: 28px;
+    font-family: Arial;
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: #776757;
+}
+
+h2{
+    font-size: 22px;
+    font-family: Arial;
+    font-weight: normal;
+    text-decoration: underline;
 }
