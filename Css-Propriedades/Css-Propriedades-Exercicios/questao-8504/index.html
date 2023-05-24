@@ -79,11 +79,8 @@
         </div>
     </div> <br>
     <div class="secao-html">
-        <p>img {</p>
-        <p>width: 800px;</p>
-        <p>height: 400px;</p>
-        <p>margin-top: 15px;</p>
-
+        <p>{</p>
+        <p>margin: 25px 30px;</p>
         <p>}</p>
     </div> <br>
     <div>
@@ -92,9 +89,59 @@
         </center>
     </div>
 
-
-
-
-</body>
+    <div class="secao3">
+        <h1>Nota explicativa</h1>
+        </div>
+        <div>
+        <h2>Margin</h2>
+        <p>A propriedade margin simplesmente adiciona uma margem ao seu elemento. Você pode utilizar qualquer medida Css (px, pt,
+        em, %...) como tamanho da propriedade margin, além disso você pode atribuir valores negativos, mas tenha cuidado com
+        eles.</p>
+        <div>
+            <h3>Ela deve ser usada da seguinte maneira:</h3>
+            <center>
+                <img src="./../assets/Imagem9.png" alt="Imagem9">
+            </center>
+        </div>
+      <p>Utilizei os mesmo valores justamente para fazer a relação, na maneira curta (shorthand) o primeiro valor é responsável
+    pela margem do topo, a segunda pela direita, a terceira pela da base e a quarta pela esquerda. Ex: #elemento { margin: top right bottom left };</p> 
+    <p>Caso o valor da margem do topo seja igual a da base e a da direita seja igual a da esquerda você pode declarar dessa
+    forma:</p> 
+    <div>
+        <center><img src="./../assets/Imagem10.png" alt="Imagem10"></center>
+    </div>
+    <p>Ou seja, o margin top e bottom do elemento será de 25px e left e right de 10px.
+    
+    Ex: #elemento { margin: topo/base esquerda/direita }
+    
+    E se todos os valores forem iguais você pode declarar da seguinte maneira:</p>
+    <div>
+        <center>
+            <img src="./../assets/Imagem11.png" alt="Imagem11">
+        </center>
+    </div>
+    <p>Quando dois elementos possuem margins que se tocam, automaticamente o maior margin prevalece e o menor é sobreposto.</p>
+    <div>
+        <center>
+            <img src="./../assets/Imagem12.png" alt="Imagem12">
+        </center>
+        <p>Nesse caso a distância entre o h1 e h2 não vai ser de 25px (20px + 5px) como o esperado e sim de 20px, pois o margin de 5px do h2 vai ser sobreposto pelo margin de 20px do h1.</p>
+        <p>A propriedade margin adiciona um espaço transparente e ele não pode ser preenchido com nenhuma cor. Além disso, ela não
+        pode receber bordas.</p>
+        <p>
+            Veja como fica um elemento de 200px por 200px com uma margem de 25px:
+        </p>
+        <div>
+            <center>
+                <img src="./../assets/Imagem13.png" alt="Imagem13">
+            </center>
+            <p>Dei uma borda branca e uma cor laranja para o elemento e um background preto pro fundo para que de para notar as margens
+            de 25px que ele recebeu. Outra detalhe importante é que elementos do tipo inline não recebem aceitam a propriedade
+            margin-top e margin-bottom, somente os de tipo block. Então caso queira usar o margin-top e bottom nele simplesmente
+            altere seu display para block.</p>
+        </div>
+    </div>
+    </div>
+    </body>
 
 </html>
