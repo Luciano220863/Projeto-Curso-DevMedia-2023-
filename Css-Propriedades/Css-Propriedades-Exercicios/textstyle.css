@@ -1,8 +1,13 @@
+h1 {
+    font-size: 24px;
+    color: #484848;
+    background-color: #c7c7c7;
+    text-decoration: underline;
+    padding: 15px 25px;
+}
+
 h2 {
-    color: #a1a1a1;
-    background-color: #000000;
-    font-weight: bold;
-    text-decoration: overline;
-    text-align: center;
-    padding: 10px;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 15px;
 }
