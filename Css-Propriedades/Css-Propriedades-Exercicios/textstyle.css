@@ -1,7 +1,8 @@
-h1 {
-    font-size: 48px;
-    font-family: Verdana;
+h2 {
+    color: #a1a1a1;
+    background-color: #000000;
+    font-weight: bold;
+    text-decoration: overline;
     text-align: center;
-    text-decoration: underline;
-    line-height: 60px;
+    padding: 10px;
 }
