@@ -1,18 +1,7 @@
-p {
-    font-size: 24px;
-    font-family: 'Lucida Sans';
-    text-decoration: center;
-    line-height: 38px;
-    color: #454545;
-}
-
-span {
-    font-weight: bold;
-}
-
-a {
-    font-weight: bold;
-    padding: 10px;
-    background-color: #e5e5e5;
-    border-radius: 5px;
+h1 {
+    font-size: 48px;
+    font-family: Verdana;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 60px;
 }
