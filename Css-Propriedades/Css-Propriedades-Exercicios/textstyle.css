@@ -1,13 +1,8 @@
-h1 {
-    font-size: 24px;
-    color: #484848;
-    background-color: #c7c7c7;
-    text-decoration: underline;
-    padding: 15px 25px;
-}
-
-h2 {
-    font-size: 18px;
-    padding: 5px;
-    margin-top: 15px;
+a {
+    font-weight: bold;
+    padding: 10px, 20px;
+    text-decoration: none;
+    background-color: #e4e4e4;
+    color: #383838;
+    border-radius: 15px;
 }
