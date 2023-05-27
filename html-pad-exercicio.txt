@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../style/style.css">
+    <link rel="shortcut icon" href="./../assets/favicon.ico" type="image/x-icon">
+    <title>CSS: Introdução | Questão </title>
+    <style>
+        .multtabela,
+        .subtitulo
+        .secao-html,
+        .secao1,
+        .secao2,
+        .secao3,
+        .secao4,
+        .tab {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: solid 1px white;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 450px;
+            height: 380px;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        h2 {
+            text-align: left;
+            font-weight: 200;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1></h1>
+    </div>
+
+
+
+</body>
+
+</html>

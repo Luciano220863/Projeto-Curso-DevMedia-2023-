@@ -1,0 +1,16 @@
+div{
+    border-top: solid 1px #ff2200;
+    border-right: solid 1px #ff2200;
+    border-bottom: dotted 5px #454545;
+    border-left: dotted 5px #000;
+}
+
+a{
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #787878;
+    color: #fffefe;
+    padding: 5px 5px;
+    padding-left: 15px 15px;
+
+}

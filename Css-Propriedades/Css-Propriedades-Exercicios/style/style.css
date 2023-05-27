@@ -86,16 +86,16 @@ span {
 }
 
 .secao1 {
-    margin-top: 5px;
-    padding-top: 0;
+    margin-top: 25px;
+    padding: 15px;
     background: #5F9EA0;
     border: solid 1px #fff;
     border-radius: 10px;
 }
 
 .secao2 {
-    margin-top: 5px;
-    padding-top: 0;
+    margin-top: 25px;
+    padding: 15px;
     background: #878a8a;
     border: solid 1px #fff;
     border-radius: 10px;
@@ -112,7 +112,7 @@ span {
 
 .secao3 {
     margin-top: 1px;
-    padding-top: 0;
+    padding: 25px;
     background: #00BFFF;
     border: solid 1px #fff;
     border-radius: 10px;
@@ -120,7 +120,7 @@ span {
 
 .secao4 {
     margin-top: 1px;
-    padding-top: 0;
+    padding: 25px;
     background: #BDB76B;
     border: solid 1px #fff;
     border-radius: 10px;
@@ -128,7 +128,7 @@ span {
 
 .secao-html {
     margin-top: 1px;
-    padding-top: 0;
+    padding: 15px;
     background: #111111;
     border: solid 1px #fff;
     border-radius: 10px;
@@ -150,7 +150,7 @@ a {
     font-size: 24px;
     font-family: Tahoma;
     font-style: italic;
-    padding: 20px;
+    padding: 25px;
     background-color: rgb(65, 73, 73);
     border: solid 1px #fff;
     border-radius: 10px;
@@ -165,6 +165,15 @@ a {
         font-size: 22px;
         text-decoration: none;
         border-radius: 10px;
+        padding: 25px;
+    }
+
+    ul, ol {
+        border-top: solid 1px #fff;
+        padding-left: 25px;
+        padding-right: 35px;
+        border-right: #fff;
+        line-height: 30px;
     }
 
 img {
