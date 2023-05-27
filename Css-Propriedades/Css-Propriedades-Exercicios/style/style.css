@@ -4,6 +4,34 @@ body {
     background: #d3d3d3;
 }
 
+        .secao-html,
+        .secao-header,
+        .secao1,
+        .secao2,
+        .secao3,
+        .secao4,
+        .multtabela .tab {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: solid 1px white;
+            border-radius: 10px;
+        }
+
+    
+        h1 {
+            text-align: center;
+            font-weight: bold;
+            border: solid 1px white;
+            border-radius: 10px;
+        }
+    
+        h2 {
+            text-align: left;
+            font-weight: 200;
+        }
+
 h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -126,6 +154,7 @@ a {
     background-color: rgb(65, 73, 73);
     border: solid 1px #fff;
     border-radius: 10px;
+}
 
 .tab {
         text-align: left;
@@ -135,13 +164,13 @@ a {
         line-height: 20px;
         font-size: 22px;
         text-decoration: none;
+        border-radius: 10px;
     }
 
-
-.img {
-    border-radius: 5px;
+img {
     width: 50%;
     height: 50%;
+    border-radius: 10%;
     }
 
     .texto-destaque-blue {

@@ -1,0 +1,163 @@
+   body {
+       margin: 15px;
+       padding: 0;
+       background: #d3d3d3;
+   }
+
+   h1 {
+       text-align: center;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+           Arial, sans-serif;
+       color: #0a0a0a;
+       font-size: 40px;
+       font-family: Cambria;
+       font-style: italic;
+       font-weight: bold;
+       background-color: #bec7c7;
+       line-height: 42px;
+       text-decoration: underline;
+       padding-right: 35px;
+       padding-left: 35px;
+   }
+
+   h2 {
+       text-align: center;
+       color: rgb(200, 209, 238);
+       font-style: italic;
+       font-weight: bold;
+       font-family: 'Trebuchet MS';
+       margin-left: 15px;
+   }
+
+   h3,
+   h4,
+   h5,
+   h6 {
+       text-align: left;
+       margin-left: 25px;
+   }
+
+   p {
+       font-family: 'Times New Roman';
+       margin-left: 25px;
+       line-height: 25px;
+       font-size: 18px;
+       font-style: italic;
+   }
+
+   span {
+       color: black;
+       font-weight: bold;
+   }
+
+   .secao-multtabela {
+       line-height: 30px;
+       font-size: 24px;
+       font-family: Tahoma;
+       font-style: italic;
+       padding: 20px;
+       background-color: rgb(65, 73, 73);
+       border: solid 1px #fff;
+       border-radius: 10px;
+   }
+
+.secao-tab {
+           text-align: left;
+           background-color: rgb(55, 57, 170);
+           color: rgb(102, 218, 160);
+           font-weight: bold;
+           line-height: 20px;
+           font-size: 22px;
+           text-decoration: none;
+       }
+
+       .secao-header {
+           margin-top: 5px;
+           padding-top: 0;
+           background: #979494;
+           border: solid 1px #ffffff;
+           border-radius: 10px;
+       }
+
+       .secao1 {
+           margin-top: 5px;
+           padding-top: 0;
+           background: #5F9EA0;
+           border: solid 1px #fff;
+           border-radius: 10px;
+       }
+
+       .secao2 {
+           margin-top: 5px;
+           padding-top: 0;
+           background: #878a8a;
+           border: solid 1px #fff;
+           border-radius: 10px;
+       }
+
+       .subtitulo {
+           text-align: center;
+           background-color: rgb(148, 104, 189);
+           color: white;
+           font-size: xx-large;
+           border-radius: 10px;
+           text-decoration: underline;
+       }
+
+       .secao3 {
+           margin-top: 1px;
+           padding-top: 0;
+           background: #00BFFF;
+           border: solid 1px #fff;
+           border-radius: 10px;
+       }
+
+       .secao4 {
+           margin-top: 1px;
+           padding-top: 0;
+           background: #BDB76B;
+           border: solid 1px #fff;
+           border-radius: 10px;
+       }
+
+       .secao-html {
+           margin-top: 1px;
+           padding-top: 0;
+           background: #111111;
+           border: solid 1px #fff;
+           border-radius: 10px;
+           font-family: 'Lucida Sans';
+           text-align: left;
+           color: #4bc007;
+       }
+
+
+       .secao-html,
+       .secao1,
+       .secao2,
+       .secao3,
+       .secao4,
+       .tab {
+           padding-left: 15px;
+           padding-right: 15px;
+           padding-top: 15px;
+           padding-bottom: 15px;
+           border: solid 1px white;
+           border-radius: 10px;
+       }
+
+       img {
+           width: 50%;
+           height: 50%;
+           border-radius: 10px;
+       }
+
+       h1 {
+           text-align: center;
+           font-weight: bold;
+       }
+
+       h2 {
+           text-align: left;
+           font-weight: 200;
+       }
