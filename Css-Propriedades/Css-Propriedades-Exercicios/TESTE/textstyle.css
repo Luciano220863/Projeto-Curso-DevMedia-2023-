@@ -1,6 +1,5 @@
 div{
-    margin-top: 50px;
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-bottom: 40px;
+    border-left: 5px solid blue;
+    border-top: 1px solid blue;
+    border-bottom: 1px solid blue;
 }
