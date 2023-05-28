@@ -179,7 +179,7 @@ a {
 img {
     width: 50%;
     height: 50%;
-    border-radius: 10%;
+    border-radius: 5px;
     }
 
     .texto-destaque-blue {
