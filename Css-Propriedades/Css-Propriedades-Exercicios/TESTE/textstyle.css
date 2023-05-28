@@ -1,5 +1,6 @@
-p{
-    color: #4580f0;
-    text-align: justify;
-    margin: 5px;
+span{ 
+    font-weight: bold;
+    text-decoration: underline;
+    color: #556900;
+    padding: 10px;
 }
