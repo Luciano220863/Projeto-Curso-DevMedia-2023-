@@ -1,5 +1,8 @@
-div{
-    border-left: 5px solid blue;
-    border-top: 1px solid blue;
-    border-bottom: 1px solid blue;
+div {
+    height: 450px;
+    width: 800px;
+    border: 2px solid #968558;
+    margin: 15px;
+    padding: 35px;
+    text-align: right;
 }
