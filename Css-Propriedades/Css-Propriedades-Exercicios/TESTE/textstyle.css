@@ -1,8 +1,12 @@
-a {
-    font-weight: bold;
-    padding: 10px 20px;
-    text-decoration: none;
-    background-color: #e4e4e4;
-    color: #383838;
-    border-radius: 15px;
+div {
+    width: 600px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #454545;
+}
+
+
+p {
+    font-size: 24px;
+    text-align: center;
 }
