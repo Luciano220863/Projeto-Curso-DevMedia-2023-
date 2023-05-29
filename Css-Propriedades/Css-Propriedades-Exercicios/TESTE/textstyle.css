@@ -1,6 +1,11 @@
-div{ 
-    border: 5px solid #ff2200;
-    background-color: #e5e5a8;
-    line-height: 100px;
-    margin-top: 30px;
+div {
+    width: 200px;
+    padding: 5px;
+    border: 8px solid #000;
+    border-radius: 15px;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
 }
