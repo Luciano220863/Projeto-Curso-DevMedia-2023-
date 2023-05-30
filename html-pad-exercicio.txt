@@ -41,9 +41,12 @@
 </head>
 
 <body>
-    <div>
-        <h1></h1>
-    </div>
+        <div class="secao-header">
+        <h1>CSS: Propriedades | <span class="texto-destaque-branco"></span>
+</h1>
+        <h2>Analisando estilos do link</h2>
+    </div><br>
+
 
 
 

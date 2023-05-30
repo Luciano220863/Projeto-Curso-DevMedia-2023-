@@ -1,5 +1,9 @@
-p {
-    color: rgb(0, 10, 20);
-    text-align: left;
-    line-height: 36px;
+a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border-top: 2px solid #457878;
 }
