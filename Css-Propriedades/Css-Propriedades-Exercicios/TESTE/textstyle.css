@@ -1,9 +1,8 @@
-a {
-    font-size: 18px;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 15px;
-    background-color: blue;
-    color: white;
-    border-top: 2px solid #457878;
+div {
+    border-top: 1px solid #ff2200;
+    border-right: 1px solid #ff2200;
+    border-style: dotted 5px #454545;
+    border-style: dotted 5px #454545;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
