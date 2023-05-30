@@ -24,18 +24,24 @@
         border: solid 1px white;
         border-radius: 10px;
     }
+
     img {
-        width: 650px;
-        height: 580px;
-    }
+    max-width: 480px;
+    max-height: 510px;
+    width: 50%;
+    height: 50%;
+}
+
     h1 {
         text-align: center;
         font-weight: bold;
     }
+
     h2 {
         text-align: left;
         font-weight: 200;
     }
+
 </style>    
 
 </head>
