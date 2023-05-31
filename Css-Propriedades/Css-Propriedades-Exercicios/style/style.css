@@ -199,6 +199,7 @@ img {
     .texto-destaque-red {
         background-color: rgb(163, 156, 156);
         color: red;
+        font-size: 26px;
         font-weight: bold;
     }
 

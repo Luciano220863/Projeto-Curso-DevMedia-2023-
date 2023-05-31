@@ -1,5 +1,7 @@
-p{
-    color: #565602;
-    width: 350px;
-    text-align: justify;
+h1 {
+    font-size: 28px;
+    font-family: 'Arial';
+    color: #0000ff;
+    text-align: center;
+    margin-top: 25px;
 }
