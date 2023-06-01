@@ -1,4 +1,11 @@
 div {
-    margin: 15px 10px 20px 30px;
-    padding: 20px 25px 10px 15px;
+    width: 600px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #454545;
+}
+
+p {
+    font-size: 24px;
+    text-align: center;
 }
