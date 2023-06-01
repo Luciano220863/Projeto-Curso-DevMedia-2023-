@@ -36,12 +36,12 @@ h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #0a0a0a;
-    font-size: 40px;
+    font-size: 32px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
     font-weight: bold;
     background-color: #bec7c7;
-    line-height: 42px;
+    line-height: 38px;
     text-decoration: underline;
     padding-right: 35px;
     padding-left: 35px;
@@ -235,7 +235,6 @@ img {
 
     .texto-destaque-branco {
         color: white;
-        font-weight: bold;
     }
 
     .texto-destaque-titulo {
@@ -255,6 +254,7 @@ img {
     .texto-destaque-rgba {
         color: rgba(246, 244, 248, 0.541);
         background-color: rgba(7, 7, 8, 0.685);
+        font-weight: bold;
     }
 
     .destaque-rgb-verm {
