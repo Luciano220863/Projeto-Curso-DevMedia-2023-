@@ -1,7 +1,4 @@
-a {
-    background-color: blue;
-    color: white;
-    padding: 10px;
-    margin-top: 15px;
-    border-bottom: 3px solid black;
+div {
+    margin: 15px 10px 20px 30px;
+    padding: 20px 25px 10px 15px;
 }
