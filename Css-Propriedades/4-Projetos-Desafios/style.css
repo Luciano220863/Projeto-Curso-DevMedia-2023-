@@ -1,0 +1,329 @@
+body {
+    margin: 15px;
+    padding: 0;
+    background: #d3d3d3
+}
+
+div {
+    margin: auto;
+}
+
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #0a0a0a;
+    font-size: 38px;
+    text-align: center;
+    border: solid 2px rgb(182, 180, 189);
+    border-radius: 10px;
+    background-color: #bec7c7;
+    line-height: 42px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #2256a3;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    text-align: left;
+    margin-left: 25px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+span {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 32px;
+
+}
+
+
+.multtabela,
+.subtitulo,
+.secao-html,
+.secao1,
+.secao2,
+.secao3,
+.secao4,
+.tab {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: solid 1px white;
+    border-radius: 10px;
+}
+
+.secao-header {
+    margin-top: 5px;
+    padding-top: 0;
+    background: #979494;
+    border: solid 1px #ffffff;
+    border-radius: 10px;
+}
+
+.secao1 {
+    margin-top: 25px;
+    padding: 15px;
+    background: #5F9EA0;
+    border: solid 1px #fff;
+    border-radius: 10px;
+}
+
+.secao2 {
+    margin-top: 25px;
+    padding: 15px;
+    background: #878a8a;
+    border: solid 1px #fff;
+    border-radius: 10px;
+}
+
+.subtitulo {
+    text-align: center;
+    background-color: rgb(148, 104, 189);
+    color: white;
+    font-size: xx-large;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+.secao3 {
+    margin-top: 1px;
+    padding: 25px;
+    background: #00BFFF;
+    border: solid 1px #fff;
+    border-radius: 10px;
+}
+
+.secao4 {
+    margin-top: 1px;
+    padding: 25px;
+    background: #BDB76B;
+    border: solid 1px #fff;
+    border-radius: 10px;
+}
+
+.secao-html {
+    margin-top: 1px;
+    padding: 15px;
+    background: #111111;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    text-align: left;
+    color: #4bc007;
+}
+
+a {
+    font-size: 14px;
+    text-decoration: underline;
+    color: darkblue;
+    background-color: cadetblue;
+}
+
+.multtabela {
+    line-height: 30px;
+    font-size: 24px;
+    font-family: Tahoma;
+    font-style: italic;
+    padding: 25px;
+    background-color: rgb(65, 73, 73);
+    border: solid 1px #fff;
+    border-radius: 10px;
+}
+
+.tab {
+    text-align: left;
+    background-color: rgb(55, 57, 170);
+    color: rgb(102, 218, 160);
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 22px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+ul,
+ol {
+    border-top: solid 1px #fff;
+    padding-left: 25px;
+    padding-right: 35px;
+    border-right: #fff;
+    line-height: 30px;
+}
+
+        .texto-destaque-blue {
+            color: blue;
+            background: rgb(182, 182, 185);
+            font-weight: bold;
+        }
+    
+        .texto-destaque-resposta {
+            color: rgb(0, 153, 255);
+            background: #6215aa;
+            font-size: 24px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+    
+        .texto-destaque-red {
+            background-color: rgb(163, 156, 156);
+            color: red;
+            font-size: 26px;
+            font-weight: bold;
+        }
+    
+        .texto-destaque-fundoazul {
+            background-color: rgb(8, 24, 247);
+            color: white;
+            font-weight: bold;
+        }
+    
+        .texto-destaque-fundopreto {
+            color: #fff;
+            background-color: #000;
+            font-weight: bold;
+        }
+    
+        .texto-destaque-fpreto {
+            background-color: #000;
+            color: #878a8a;
+            font-weight: bold;
+        }
+    
+        .texto-destaque-fbranco {
+            background-color: #fff;
+            color: #000;
+            font-weight: bold;
+        }
+    
+        .texto-destaque-fundoverde {
+            background-color: rgb(14, 85, 14);
+            color: white;
+            font-weight: bold;
+        }
+    
+        .texto-destaque-branco {
+            color: white;
+        }
+    
+        .texto-destaque-titulo {
+            color: #f80505;
+            background: #4bc007;
+            text-align: center;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    
+        .texto-destaque-branco-fundo-preto {
+            color: white;
+            background-color: black;
+            font-weight: bold;
+        }
+    
+        .texto-destaque-rgba {
+            color: rgba(246, 244, 248, 0.541);
+            background-color: rgba(7, 7, 8, 0.685);
+            font-weight: bold;
+        }
+    
+        .destaque-rgb-verm {
+            color: white;
+            background: rgb(255, 0, 0);
+        }
+    
+        .destaque-rgb-verde {
+            color: white;
+            background: rgb(0, 255, 0);
+        }
+    
+        .destaque-rgb-azul {
+            color: white;
+            background: rgb(0, 0, 255);
+        }
+    
+        .marca-texto {
+            background-color: greenyellow;
+            color: #000;
+            font-weight: 100;
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+.container {
+    position: relative;
+    padding: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.gallery-wrapper {
+    overflow-x: auto;
+}
+
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    color: #fff;
+    transition: all 600ms ease-in-out;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    cursor: pointer;
+    border: none;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    opacity: 1;
+}
+
+.arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+}
+
+.item {
+    width: 600px;
+    height: 410px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 0.5;
+}
+
+.current-item {
+    opacity: 1;
+}
