@@ -4,6 +4,10 @@ body {
     background: #d3d3d3;
 }
 
+div{
+    margin: 15px auto;
+}
+
         .secao-html,
         .secao-header,
         .secao1,

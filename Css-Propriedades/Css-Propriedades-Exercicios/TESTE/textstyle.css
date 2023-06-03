@@ -1,9 +1,9 @@
 div {
+    width: 300px;
+    height: 300px;
     border-top: 1px solid #ff2200;
     border-right: 1px solid #ff2200;
     border-bottom: 5px dotted #454545;
     border-left: 5px dotted #454545;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin: 15px auto;
 }
-
