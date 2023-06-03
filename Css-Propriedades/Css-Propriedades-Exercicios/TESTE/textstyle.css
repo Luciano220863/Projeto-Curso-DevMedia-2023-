@@ -1,4 +1,10 @@
-div {
-    margin: 15px 30px 10px 20px;
-    padding: 20px 15px 10px 25px;
+h1 {
+    font-size: 48px;
+    font-family: 'impact';
+    text-decoration: underline;
+}
+
+p {
+    font-size: 28px;
+    color: #565656 ;
 }
