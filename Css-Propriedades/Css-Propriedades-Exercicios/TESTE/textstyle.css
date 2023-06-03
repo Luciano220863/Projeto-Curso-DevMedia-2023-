@@ -1,10 +1,9 @@
-h1 {
-    font-size: 48px;
-    font-family: 'impact';
-    text-decoration: underline;
+div {
+    border-top: 1px solid #ff2200;
+    border-right: 1px solid #ff2200;
+    border-bottom: 5px dotted #454545;
+    border-left: 5px dotted #454545;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
-p {
-    font-size: 28px;
-    color: #565656 ;
-}
