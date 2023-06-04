@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../style.css">
+    <link rel="shortcut icon" href="./../favicon.ico" type="image/x-icon">
+    <title>CSS: Propriedades | Projeto passo a passo - Parte 2</title>
+    <style>
+        .multtabela,
+        .subtitulo,
+        .secao-html,
+        .secao1,
+        .secao2,
+        .secao3,
+        .secao4,
+        .tab {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: solid 1px white;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        h2 {
+            text-align: left;
+            font-weight: 200;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="secao-header">
+        <h1>CSS Propriedades<br>Projeto passo a passo<br>2º passo: HTML da página web</h1>
+    </div>
+    <div class="secao1">
+        <h2>Para realizar esse passo você precisa estudar e conquistar os certificado abaixo</h2>
+        <div class="multtabela">
+            <ul>
+                <li><a href="https://www.devmedia.com.br/carreira-programador/carreira.php?id=475#topico-1"
+                        target="_blank" rel="noopener 
+                    noreferrer">HTML: Introdução</a></li>
+                <li><a href="https://www.devmedia.com.br/carreira-programador/carreira.php?id=475#topico-2"
+                        target="_blank" rel="noopener 
+                    noreferrer">HTML: Tags Básicas</a></li>
+                <li><a href="https://www.devmedia.com.br/carreira-programador/carreira.php?id=471#topico-1"
+                        target="_blank" rel="noopener 
+                    noreferrer">HTML: Meta tags</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="secao1">
+        <h3>O que será feito?</h3>
+        <div class="secao2">
+            <p>O objetivo deste passo é estruturar e organizar os elementos HTML sem se preocupar com a estilização
+                neste momento.</p>
+            <p>Ao finalizar este passo sua página principal vai parecer com o que aparece na <span
+                    class="texto-destaque-red">Animação 1</span>.</p>
+            <center>
+                <img src="./img/anime1.gif.crdownload" max-width="1010" max-height="807" width="80%" alt="anime1"
+                    title="Animação 1. Estrutura HTML da página">
+            </center>
+        </div>
+    </div>
+    <div class="secao1">
+        <div class="secao2">
+            <p>Antes de iniciar o projeto do livro, precisamos entender como um projeto web deve ser construído. Veja
+                sobre isso no
+                flow a seguir:</p>
+
+            <div class="container">
+                <button class="arrow-left control" aria-label="Previous image">◀</button>
+                <button class="arrow-right control" aria-label="Next Image">▶</button>
+                <div class="gallery-wrapper">
+                    <div class="gallery">
+                        <img src="./../SegundoPasso/img/1.png" alt="1" class="item current-item">
+                        <img src="./../SegundoPasso/img/2.png" alt="2" class="item current-item">
+                        <img src="./../SegundoPasso/img/3.png" alt="3" class="item current-item">
+                        <img src="./../SegundoPasso/img/4.png" alt="4" class="item current-item">
+                        <img src="./../SegundoPasso/img/5.png" alt="5" class="item current-item">
+                        <img src="./../SegundoPasso/img/6.png" alt="6" class="item current-item">
+                        <img src="./../SegundoPasso/img/7.png" alt="7" class="item current-item">
+                        <img src="./../SegundoPasso/img/8.png" alt="8" class="item current-item">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="secao1">
+        <div class="secao2">
+            <p>No flow a seguir entendemos melhor como foi feita a estrutura HTML do projeto:</p>
+            <div class="container">
+                <button class="arrow-left control" aria-label="Previous image">◀</button>
+                <button class="arrow-right control" aria-label="Next Image">▶</button>
+                <div class="gallery-wrapper">
+                    <div class="gallery">
+                        <img src="./../SegundoPasso/img/9.png" alt="9" class="item current-item">
+                        <img src="./../SegundoPasso/img/10.png" alt="10" class="item current-item">
+                        <img src="./../SegundoPasso/img/11.png" alt="11" class="item current-item">
+                        <img src="./../SegundoPasso/img/12.png" alt="12" class="item current-item">
+                        <img src="./../SegundoPasso/img/13.png" alt="13" class="item current-item">
+                        <img src="./../SegundoPasso/img/14.png" alt="14" class="item current-item">
+                        <img src="./../SegundoPasso/img/15.png" alt="15" class="item current-item">
+                        <img src="./../SegundoPasso/img/16.png" alt="16" class="item current-item">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="secao1">
+            <div class="secao2">
+                <p>No flow a seguir vemos como a página do projeto foi separada em seções:</p>
+                <div class="container">
+                    <button class="arrow-left control" aria-label="Previous 
+        image">◀</button>
+                    <button class="arrow-right control" aria-label="Next 
+        Image">▶</button>
+                    <div class="gallery-wrapper">
+                        <div class="gallery">
+                            <img src="./../SegundoPasso/img/17.png" alt="17" class="item current-item">
+                            <img src="./../SegundoPasso/img/18.png" alt="18" class="item current-item">
+                            <img src="./../SegundoPasso/img/19.png" alt="19" class="item current-item">
+                            <img src="./../SegundoPasso/img/20.png" alt="20" class="item current-item">
+                            <img src="./../SegundoPasso/img/21.png" alt="21" class="item current-item">
+                            <img src="./../SegundoPasso/img/22.png" alt="22" class="item current-item">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="secao1">
+        <div class="secao2">
+            <p>No flow a seguir vemos o elemento usado para separar a página em seções:</p>
+        </div>
+
+        <div class="secao2">
+            <center>
+                <img src="http://www.devmedia.com.br/arquivos/projeto_guiado/front-end/primeira_pag_livro/passo1/anime.gif"
+                    max-width="1010" max-height="807" width="70%" alt="projeto_guiado"> <br>
+                <h3>Animação 1. Projeto desenvolvido</h3>
+            </center>
+        </div>
+    </div>
+    <div class="secao1">
+        <div class="secao2">
+            <h3>Conheça melhor nosso projeto no flow abaixo:</h3>
+            <div class="container">
+                <button class="arrow-left control" aria-label="Previous image">◀</button>
+                <button class="arrow-right control" aria-label="Next Image">▶</button>
+                <div class="gallery-wrapper">
+                    <div class="gallery">
+                        <img src="./../SegundoPasso/img/5.png" alt="5" class="item current-item">
+                        <img src="./../SegundoPasso/img/6.png" alt="6" class="item current-item">
+                        <img src="./../SegundoPasso/img/7.png" alt="7" class="item current-item">
+                        <img src="./../SegundoPasso/img/8.png" alt="8" class="item current-item">
+                        <img src="./../SegundoPasso/img/9.png" alt="9" class="item current-item">
+                        <img src="./../SegundoPasso/img/010.png" alt="010" class="item current-item">
+                        <img src="./../SegundoPasso/img/011.png" alt="011" class="item current-item">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="secao1">
+        <div class="secao2">
+            <h3>Para criar a página desse projeto agrupamos diversos elementos por contexto, como vemos no flow a
+                seguir:</h3>
+            <div class="container">
+                <button class="arrow-left control" aria-label="Previous 
+        image">◀</button>
+                <button class="arrow-right control" aria-label="Next 
+        Image">▶</button>
+                <div class="gallery-wrapper">
+                    <div class="gallery">
+                        <img src="./../PrimeiroPasso/img/012.png" alt="012" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/013.png" alt="013" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/014.png" alt="014" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/015.png" alt="015" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/016.png" alt="016" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/017.png" alt="017" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/018.png" alt="018" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/019.png" alt="019" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/020.png" alt="020" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/021.png" alt="021" class="item current-item">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="secao1">
+        <div class="secao2">
+            <h3>A página do projeto é autocontida, ou seja, todas as informações estão reunidas dentro dela.</h3>
+            <h3>Sendo assim, não precisamos criar mais páginas nesse projeto. No flow a seguir vemos isso com mais
+                detalhes:</h3>
+
+            <div class="container">
+                <button class="arrow-left control" aria-label="Previous 
+                        image">◀</button>
+                <button class="arrow-right control" aria-label="Next 
+                        Image">▶</button>
+                <div class="gallery-wrapper">
+                    <div class="gallery">
+                        <img src="./../PrimeiroPasso/img/022.png" alt="022" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/023.png" alt="023" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/024.png" alt="024" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/025.png" alt="025" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/026.png" alt="026" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/027.png" alt="027" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/028.png" alt="028" class="item current-item">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="secao1">
+        <div class="secao2">
+            <h3>No projeto fizemos uso de links externos, como vemos no flow a seguir:</h3>
+
+            <div class="container">
+                <button class="arrow-left control" aria-label="Previous 
+                                                        image">◀</button>
+                <button class="arrow-right control" aria-label="Next 
+                                                        Image">▶</button>
+                <div class="gallery-wrapper">
+                    <div class="gallery">
+                        <img src="./../PrimeiroPasso/img/029.png" alt="029" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/030.png" alt="030" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/031.png" alt="031" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/032.png" alt="032" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/033.png" alt="033" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/034.png" alt="034" class="item current-item">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="secao1">
+        <div class="secao2">
+            <h3>O que vem agora? Agora que você já conhece o projeto, o próximo passo pode ser visto no flow abaixo:
+            </h3>
+
+            <div class="container">
+                <button class="arrow-left control" aria-label="Previous 
+                                                                image">◀</button>
+                <button class="arrow-right control" aria-label="Next 
+                                                                Image">▶</button>
+                <div class="gallery-wrapper">
+                    <div class="gallery">
+                        <img src="./../PrimeiroPasso/img/035.png" alt="035" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/036.png" alt="036" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/037.png" alt="037" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/038.png" alt="038" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/039.png" alt="039" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/040.png" alt="040" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/041.png" alt="041" class="item current-item">
+                        <img src="./../PrimeiroPasso/img/042.png" alt="042" class="item current-item">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
