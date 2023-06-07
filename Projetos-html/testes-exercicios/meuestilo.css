@@ -1,9 +1,5 @@
-body {
-    background-color: #d5d5d5;
-    margin: 5px;
-}
-
-.texto-principal span {
-    color: red;
-    font-weight: bold;
+.resposta{
+    background-color: aquamarine;
+    border: solid 2px #000;
+    color: #ff2354
 }

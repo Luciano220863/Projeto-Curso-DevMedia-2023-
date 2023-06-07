@@ -10,15 +10,64 @@
     <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="meuestilo.css">
     <title>testes-de-exercícios</title>
+    <style>
+        .resposta {
+            background-color: rgb(43, 84, 221);
+            border: solid 2px #000;
+            border-radius: 15px;
+            color: #ff2354
+        }
+
+        .secao-html {
+            background: #000;
+            border: solid 2px #fff;
+            color: #04f018;
+            font-style: italic;
+
+            border-radius: 15px;
+            margin: 15px;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            color: rgb(209, 223, 25);
+    </style>
 </head>
 
 <body>
-    <p class="texto-principal">Os oradores são um grupo de eruditos nômades da série animada, que mantêm histórias e tradições orais. Eles são perseguidos pela Igreja, que os veem como feiticeiros e responsáveis pela ira de <span class="destaque">Drácula</span>. <br>
-<span class="destaque">Trevor Belmont</span> ajudou-os a se esconderem antes que os agentes da Igreja viessem matá-los. São muito defensivos em relação à sua prática de recitar oralmente a história. Eles desprezam a ideia de escrever história no papel, explicado nas palavras do Ancião: "A história é uma coisa viva, o papel está morto".</p>
-    <p class="texto-secundario">Conhecidos membros dos oradores são os <span class="destaque">Sypha Belnades</span> e
-        seu
-        avô.</p>
+    <div class="secao secao-destaque">
+        <h3>Esportes</h3>
+        <p>Cada vez mais os esportes tomam os destaques das notícias. Fique por dentro de tudo o que ocorre nesse meio
+            aqui
+            no nosso portal.</p>
+    </div>
+    <div class="secao">
+        <h3>Entretenimento</h3>
+        <p>Memes, assuntos do dia e tudo que gera diversão você encontra aqui.</p>
+    </div>
+    <div class="secao">
+        <h3>Economia</h3>
+        <p>Todos os assuntos relacionados à Economia você encontra aqui no nosso portal.</p>
+    </div>
+    <hr><hr>
+<br>
+    <div class="resposta">
+        <h1>Resposta certa - questão:Definindo estilos para os elementos</h1>
+        <div class="secao-html">
+            <p>.secao-destaque {</p>
+            <p>background-color: #e4e7d9;</p>
+            <p>}</p>
 
+            <p>.secao {</p>
+            <p>padding: 30px;</p>
+            <p>margin-top: 20px;</p>
+            <p>}</p>
+
+        </div>
+
+    </div>
 </body>
 
 </html>
