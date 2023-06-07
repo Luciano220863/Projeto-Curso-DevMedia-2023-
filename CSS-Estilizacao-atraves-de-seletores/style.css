@@ -88,14 +88,15 @@
 
   blockquote {
       font-family: 'Courier New', Courier, monospace;
-      text-align: center;
-      font-size: 26px;
+      text-align: right;
+      font-size: 20px;
       font-style: italic;
-      margin-left: 15px;
-      color: #fff;
-      border: solid 2px #1e06f3;
+      color: blue;
+      border-left: solid 3px #7e7e91;
+      border-bottom: solid 3px #7e7e91;
       border-radius: 5px;
-      background: #000;
+      background: #b1aaaa63;
+      max-width: 710px;
   }
 
   .secao-header {
@@ -121,7 +122,6 @@
       color: #fff;
       text-align: left;
       padding: 0;
-      background-color: #000;
       box-sizing: 5px;
       margin-left: 15px;
       margin-right: 15px;
