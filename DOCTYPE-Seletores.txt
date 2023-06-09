@@ -10,10 +10,10 @@ type="image/x-icon">
     <title>CSS: Seletores|Questão </title>
 </head>
 <body>
-    <h4>Exercícios - Questão </h4>
-    <div class="secao-header">
-        <h1>CSS: Seletores|Estilos para links dentro do 
-parágrafo</h1>
-    </div>
+ <h1 class="titulo">Exercícios - Questão 8683</h1>
+ <div class="secao-header">
+     <h2>CSS: Seletores <br> Completando os códigos HTML e CSS</h2>
+ </div>
+         <h4>Complete os códigos HTML e CSS de acordo com os itens a seguir:</h4>
 </body>
 </html>
