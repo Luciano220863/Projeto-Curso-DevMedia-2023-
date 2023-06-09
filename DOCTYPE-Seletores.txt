@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+initial-scale=1.0">
+    <link rel="stylesheet" href="./../style.css">
+    <link rel="shortcut icon" href="./../../favicon.png" 
+type="image/x-icon">
+    <title>CSS: Seletores|Questão </title>
+</head>
+<body>
+    <h4>Exercícios - Questão </h4>
+    <div class="secao-header">
+        <h1>CSS: Seletores|Estilos para links dentro do 
+parágrafo</h1>
+    </div>
+</body>
+</html>
