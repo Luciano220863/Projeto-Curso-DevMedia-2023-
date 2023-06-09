@@ -1,5 +1,7 @@
-.resposta{
-    background-color: aquamarine;
-    border: solid 2px #000;
-    color: #ff2354
+.secao-conteudo{
+    font-size: 18px;
+}
+
+.secao-rodape{
+    font-size: 16px;
 }
