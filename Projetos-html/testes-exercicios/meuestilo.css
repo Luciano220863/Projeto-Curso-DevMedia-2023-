@@ -1,8 +1,4 @@
-.titulo-noticia{
-    margin-bottom: 35px;
-}
-
-.paragrafo-noticia{
-    color: rgb(255, 60, 35);
-    text-align: justify;
+.texto-destaque {
+    color: #454545;
+    text-decoration: underline;
 }
