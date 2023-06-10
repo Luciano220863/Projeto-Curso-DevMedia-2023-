@@ -1,4 +1,5 @@
-.texto-destaque {
-    color: #454545;
-    text-decoration: underline;
+.secao .texto{
+    text-align: right;
+    line-height: 36px;
+    margin-bottom: 40px;
 }
