@@ -81,14 +81,12 @@
       padding: 25px;
       max-width: 450px;
   }
-
-
-  img {
-      max-width: 690px;
-      max-height: 430px;
-      width: 70%;
-      height: 70%;
-  }
+ img {
+     max-width: 690px;
+     max-height: 430px;
+     width: 70%;
+     height: 70%;
+ }
 
 
   blockquote {

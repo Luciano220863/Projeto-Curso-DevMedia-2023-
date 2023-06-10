@@ -8,6 +8,12 @@ initial-scale=1.0">
     <link rel="shortcut icon" href="./../../favicon.png" 
 type="image/x-icon">
     <title>CSS: Seletores|Questão </title>
+<style>
+    img {
+max-width: 510px;
+max-height: 490px;
+width: 70%;
+height: 70%;
 </head>
 <body>
  <h1 class="titulo">Exercícios - Questão 8683</h1>
