@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+initial-scale=1.0">
+    <link rel="stylesheet" href="./../style.css">
+    <link rel="shortcut icon" href="./../../favicon.png" type="image/x-icon">
+    <title>CSS: Seletores|Questão 8666 </title>
+    <style>
+        img {
+            max-width: 510px;
+            max-height: 490px;
+            width: 70%;
+            height: 70%;
+            padding: 10px;
+        }
+
+        .imagem-produto {
+            height: 350px;
+            width: 400px;
+        }
+
+        .texto-descricao {
+            font-size: 16px;
+            color: #ff4455;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="titulo">Exercícios - Questão 8666</h1>
+    <div class="secao-header">
+        <h2>CSS: Seletores <br> Estilizando os elementos pela classe</h2>
+    </div>
+    <h4>Veja o código HTML abaixo:</h4>
+    <div class="secao4">
+        <div class="secao-html">
+            &lt;img class="imagem-produto" src="img/bicicleta.jpg" alt="Bicicleta"&gt;
+            <p class="texto-descricao">A bicicleta está na memória de gerações e gerações de Brasileiros.</p>
+        </div>
+        <div class="multtabela">
+            <h3><span>Complete o código CSS de modo que a lista de itens seja atendida.</span></h3>
+            <ol>
+                <li>Para estilizar a imagem defina os estilos utilizando a classe do elemento:
+                    <ul>
+                        <li>altura de 350 pixels;</li><br>
+                        <li>largura de 400 pixels;</li>
+                    </ul>
+                </li>
+                <br>
+                <li>Já para o parágrafo, defina os seguintes estilos com a classe do elemento:
+                    <ul>
+                        <li>tamanho de fonte de 16 pixels;</li><br>
+                        <li>cor de texto (#ff4455);</li>
+                    </ul>
+                </li>
+            </ol>
+        </div><br>
+        <div class="multtabela">
+            <h2><span>Resposta código CSS style aplicada</span></h2>
+            <div class="secao-html">
+                <p>.imagem-produto{</p>
+                <p>height: 350px;</p>
+                <p>width: 400px;</p>
+                <p>}</p>
+                <br>
+                <p>.texto-descricao{</p>
+                <p>font-size: 16px;</p>
+                <p>color: #ff4455;</p>
+                <p>}</p>
+            </div>
+            <h2><span>Resultado Final do código CSS aplicado</span>
+                <div class="secao-html">
+                    <center>
+                        <img class="imagem-produto" src="./../img/bicicleta.png" alt="Bicicleta">
+                        <p class="texto-descricao">A bicicleta está na memória de gerações e gerações de Brasileiros.</p>
+                    </center>
+
+                </div>
+                <center>
+                    <img src="./../img/img-questao8666.png" alt="">
+                </center>
+        </div>
+    </div>
+</body>
+
+</html>

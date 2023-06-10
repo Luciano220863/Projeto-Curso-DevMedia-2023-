@@ -1,5 +1,9 @@
-.secao .texto{
-    text-align: right;
-    line-height: 36px;
-    margin-bottom: 40px;
+.imagem-produto{
+    height: 350px;
+    width: 400px;
+}
+
+.texto-descricao{
+    font-size: 16px;
+    color: #ff4455;
 }
