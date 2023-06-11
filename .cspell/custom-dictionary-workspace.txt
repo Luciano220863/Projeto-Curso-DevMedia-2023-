@@ -59,5 +59,6 @@ unidades
 Unidades
 valer
 variedades
+verdadeira
 voltam
 voltaram
