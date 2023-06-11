@@ -48,7 +48,7 @@
   .secao3,
   .secao4,
   .tab {
-      padding: 25px;
+      padding: 15px;
       border: solid 1px white;
       border-radius: 10px;
   }
@@ -63,14 +63,15 @@
       color: #000;
       margin-left: 15px;
       margin-right: 35px;
-      padding: 35px;
+      padding: 15px;
+      text-align: left;
   }
 
   ol {
       border: solid 1px #804000;
       border-radius: 10px;
       background-color: #c9b997;
-      padding: 35px;
+      padding: 15px;
       max-width: 650px;
   }
 
@@ -78,15 +79,16 @@
       border: solid 1px #c9b997;
       border-radius: 10px;
       background-color: #804000;
-      padding: 25px;
+      padding: 10px;
       max-width: 450px;
   }
- img {
-     max-width: 690px;
-     max-height: 430px;
-     width: 70%;
-     height: 70%;
- }
+
+  img {
+      max-width: 690px;
+      max-height: 430px;
+      width: 70%;
+      height: 70%;
+  }
 
 
   blockquote {
@@ -104,7 +106,8 @@
 
   .multtabela {
       margin-top: 1px;
-      padding-top: 10px;
+      padding-bottom: 2px;
+      padding-top: 5px;
       background: #a79353;
       border: solid 2px #dcdcdc;
       border-radius: 10px;
@@ -185,6 +188,7 @@
   .secao4 {
       margin-top: 1px;
       padding-top: 0;
+      padding-bottom: 2px;
       background: #d3a551;
       border: solid 2px #dcdcdc;
       border-radius: 10px;
