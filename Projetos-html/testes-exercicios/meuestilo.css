@@ -1,33 +1,6 @@
-div {
-    margin-top: 15px;
-    margin-bottom: 25px;
-    background-color: #e5e5e5;
-}
-
-h1 {
-    font-size: 28px;
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-p {
-    text-align: justify;
-    line-height: 20px;
-}
-
-p,
-a {
-    color: #222222;
-}
-
 p span {
-    font-weight: bold;
+    color: rgb(0, 25, 125);
+    text-decoration: underline;
+    margin-left: 5px;
+    margin-right: 5px;
 }
-
-a {
-    font-weight: bold;
-}
-
