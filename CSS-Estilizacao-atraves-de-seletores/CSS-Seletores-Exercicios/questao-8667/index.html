@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+initial-scale=1.0">
+    <link rel="stylesheet" href="./../style.css">
+    <link rel="shortcut icon" href="./../../favicon.png" type="image/x-icon">
+    <title>CSS: Seletores|Questão:8667 </title>
+    <style>
+         .secao-servicos img {
+     width: 300px;
+     height: 250px;
+ }
+ .secao-rodape img {
+     width: 150px;
+     height: 75px;
+ }
+    </style>
+</head>
+
+<body>
+    <h1 class="titulo">Exercícios - Questão 8667</h1>
+    <div class="secao-header">
+        <h2>CSS: Seletores <br> Corrigindo o estilo CSS</h2>
+    </div>
+    <h4>Veja o código HTML abaixo:</h4>
+    <div class="secao4">
+        <div class="secao-html">
+            <p>&lt;div class="secao-servicos"&gt;</p>
+            <p>&lt;img src="img/alvenaria.jpg" alt="Serviços de Alvenaria"&gt;</p>
+            <p>&lt;h3>Alvenaria&lt;/h3&gt;</p>
+            <p>&lt;p>Alvenaria é a construção de estruturas e de paredes utilizando unidades unidas entre si ou não, por
+                argamassa.
+                &lt;/p&gt;</p>
+            <p>&lt;img src="img/hidraulica.jpg" alt="Serviços de Hidráulica">
+            <p>&lt;h3&gt;Hidráulica&lt;/h3&gt;</p>
+            <p>&lt;p&gt;Hidráulica é a parte da física que se dedica a estudar o comportamento dos fluidos em movimento
+                e em
+                repouso.&lt;/p&gt;</p>
+            <p>&lt;img src="img/eletrica.jpg" alt="Serviços de Elétrica"&gt;</p>
+            <p>&lt;h3&gt;Elétrica&lt;/h3&gt;</p>
+            <p>&lt;p&gt;Um dos assuntos mais importantes durante a construção de uma obra são as instalações elétricas,
+                já
+                que a
+                eletricidade é a principal fonte de luz.&lt;/p&gt;</p>
+            <p>&lt;/div&gt;</p>
+            <p>&lt;div class="secao-rodape" alt="Logotipo"&gt;</p>
+            <p>&lt;img src="img/logo-rodape.jpg"&gt;</p>
+            <p>&lt;p&gt;Site desenvolvido pela agência mix&lt;/p&gt;</p>
+            <p>&lt;/div&gt;</p>
+        </div><br>
+        <div class="secao4">
+            <h5><span>O seguinte estilo foi definido para mudar a aparência das imagens:</span></h5>
+            <div class="secao-html">
+                <p>div img {</p>
+                <p>width: 300px;</p>
+                <p>height: 250px;</p>
+                <p>}</p>
+            </div>
+            <h5><span>Porém, precisamos que as imagens tenham os seguintes tamanhos:</span></h5>
+            <div class="multtabela">
+                <ol type="I">
+                    <li>Imagens da 1ª div:
+                        <ul type="disc">
+                            <li>- largura de 300 pixels</li><br>
+                            <li>- altura de 250 pixels</li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li>Imagens da 2ª div
+                        <ul type="circle">
+                            <li>- largura de 150 pixels</li><br>
+                            <li>- altura de 75 pixels</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <h5><span>Abaixo temos a alternativa que corrige o código CSS anterior.</span></h5>
+            <div class="secao-html">
+                <p>.secao-servicos img {</p>
+                <p>width: 300px;</p>
+                <p>height: 250px;</p>
+                <p>}</p>
+                <br>
+                <p>.secao-rodape img {</p>
+                <p>width: 150px;</p>
+                <p>height: 75px;</p>
+                <p>}</p>
+            </div>
+        </div><br>
+        <h2><span>Ficando assim a visualização</span></h2><br>
+        <div class="secao-header"><br>
+                <center>
+                    <div class="secao-servicos">
+                        <img src="./../img/alvenaria.jpg" alt="Serviços de Alvenaria">
+                        <h3>Alvenaria</h3>
+                        <p>Alvenaria é a construção de estruturas e de paredes
+                            utilizando
+                            unidades unidas entre si ou não, por argamassa.
+                        </p>
+                        <img src="./../img/hidraulica.jpg" alt="Serviços de Hidráulica">
+                        <h3>Hidráulica</h3>
+                        <p>Hidráulica é a parte da física que se dedica a estudar o
+                            comportamento dos fluidos em movimento e em repouso.</p>
+                        <img src="./../img/eletrica.jpg" alt="Serviços de Elétrica">
+                        <h3>Elétrica</h3>
+                        <p>Um dos assuntos mais importantes durante a construção de uma
+                            obra
+                            são as instalações elétricas, já que a
+                            eletricidade é a principal fonte de luz.</p>
+                    </div>
+                </center>
+                <center>
+                    <div class="secao-rodape" alt="Logotipo">
+                        <img src="./../img/logo-rodape.jpg">
+                        <p>Site desenvolvido pela agência mix</p>
+                    </div>
+                </center>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

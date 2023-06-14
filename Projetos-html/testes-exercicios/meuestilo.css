@@ -1,6 +1,5 @@
-p span {
-    color: rgb(0, 25, 125);
-    text-decoration: underline;
-    margin-left: 5px;
-    margin-right: 5px;
+div {
+    margin-top: 15px;
+    color: red;
+    text-decoration: none;
 }
