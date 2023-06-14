@@ -23,8 +23,10 @@ bilheterias
 Brasileiros
 burguês
 campeonato
+Capcom
 caráter
 ciclo
+cinematográfico
 cofres
 comportamento
 compromisso
@@ -36,6 +38,7 @@ contou
 corrige
 Corrigindo
 crítica
+curioso
 daqueles
 dedica
 derrota
@@ -69,14 +72,17 @@ fracassou
 França
 francês
 Francesa
+ganha
 gerações
 golpe
 gosta
+gráficos
 grandes
 grau
 Hidráulica
 icônica
 Iguaçu
+impressionantes
 instalações
 irmãs
 justificar
@@ -85,6 +91,7 @@ levar
 longa
 lotado
 Luxemburgo
+madrugada
 mantinham
 marcou
 memória
@@ -92,6 +99,7 @@ milhão
 mistas
 mitologia
 molhos
+mostra
 Mudança
 novos
 nucleares
@@ -108,12 +116,15 @@ Pinheiro
 positivo
 povo
 precária
+previsto
+prometeu
 publicada
 público
 radicalismo
 recebendo
 refresco
 Renata
+repaginados
 reporterligado
 repouso
 reprovação
@@ -133,6 +144,7 @@ Shypsha
 sintomas
 sofreu
 tenista
+traz
 triunfou
 ultrapassam
 unidades
@@ -141,6 +153,7 @@ unidas
 valer
 variedades
 verdadeira
+visuais
 visualização
 voltam
 voltaram
