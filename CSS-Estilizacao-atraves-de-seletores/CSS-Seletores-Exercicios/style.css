@@ -83,13 +83,12 @@
       max-width: 450px;
   }
 
- 
- 
- 
- 
- 
- 
-
+  img {
+      max-width: 690px;
+      max-height: 430px;
+      width: 70%;
+      height: 70%;
+  }
 
   blockquote {
       font-family: 'Courier New', Courier, monospace;
