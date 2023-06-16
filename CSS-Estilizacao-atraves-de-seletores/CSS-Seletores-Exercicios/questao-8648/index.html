@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, 
 initial-scale=1.0">
-    <link rel="stylesheet" href="./../style.css">
+    <link rel="stylesheet" href="./../../CSS-Seletores-Exercicios/style.css">
     <link rel="shortcut icon" href="./../../favicon.png" type="image/x-icon">
     <title>CSS: Seletores|Questão 8648</title>
     <style>
@@ -15,19 +15,66 @@ initial-scale=1.0">
             width: 70%;
             height: 70%;
         }
+
+        .secao-destaque .texto {
+            font-size: 16px;
+            font-family: Tahoma;
+            text-align: center;
+        }
+
+        .texto {
+            line-height: 36px;
+            border: solid 1px rgb(247, 241, 241);
+        }
     </style>
 </head>
 
 <body>
     <h1 class="titulo">Exercícios - Questão 8648</h1>
     <div class="secao-header">
-        <h2>CSS: Seletores <br> Completando os códigos HTML e CSS</h2>
+        <h2>CSS: Seletores<br>Descrevendo o código CSS</h2>
     </div>
-    <h4>Complete os códigos HTML e CSS de acordo com os itens a seguir:</h4>
-    <a href="https://www.devmedia.com.br/certificado/tecnologia/css/luciano-camargo-2">Certificado atualizado no CSS</a>
-    <center>
-        <img src="./../img/img-certificado-up-css(16-06).png" alt="img-certificado-up-css">
-    </center>
+    <h4>Observe o código CSS a seguir:</h4>
+    <div class="secao4">
+        <div class="secao-html">
+            <p>.secao-destaque .texto {</p>
+            <p>font-size: 16px;</p>
+            <p>font-family: Tahoma;</p>
+            <p>}</p>
+            <br>
+            <p>.texto {</p>
+            <p>line-height: 36px;</p>
+            
+            <p>}</p>
+        </div>
+        <div class="secao2">
+            <div class="secao-html">
+                <p class="secao-destaque .texto">
+                    A proposta desse projeto é criar uma página web estilizada e
+                    que exibe listas. Para isso vamos usar as linguagens HTML e CSS.
+                </p>
+            </div>
+        </div>
+        <div class="secao2">
+            <div class="secao-html">
+                <p class="texto">
+                    Teremos um arquivo HTML que conterá a estrutura da página da
+                    imobiliária e um arquivo CSS que conterá os estilos para
+                    mudar a aparência da página.
+                </p>
+            </div>
+        </div>
+        <div class="secao-destaque">
+            <h3>A opção selecionada foi</h3>
+            <p><span class="texto-destaque-red">Opção 1</span>  
+            Todos os elementos com a classe "texto" contidos dentro de elementos com a classe "secao-destaque" terão a altura da linha do texto modificada.</p>
+            <center>
+                <img src="./../img/img-erro-questao8648.png" alt="img-erro-questao8648" title="Estudar e rever o tópico">
+            </center>
+
+        </div>
+
+    </div>
 </body>
 
 </html>
