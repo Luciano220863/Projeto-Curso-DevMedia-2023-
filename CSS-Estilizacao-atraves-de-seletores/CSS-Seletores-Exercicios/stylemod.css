@@ -1,0 +1,44 @@
+body {
+    margin: 25px;
+    background-color: #B0C4DE;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Tahoma', 'Helvetica';
+    font-weight: bold;
+    
+}
+
+
+h4,
+h5,
+h6 {
+    font-family: cursive;
+    text-align: left;
+    font-weight: 600;
+    color: #0000CD;
+    text-overflow: ellipsis ;
+}
+
+h1{
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #191970;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+h2, h3{
+    font-size: larger;
+    color: #6495ED;
+}
+
+h4,
+h5, h6 {
+    font-size: larger;
+    color: #00008B;
+}

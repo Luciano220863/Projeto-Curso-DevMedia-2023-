@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+initial-scale=1.0">
+    <link rel="stylesheet" href="./../style.css">
+    <link rel="shortcut icon" href="./../../favicon.png" type="image/x-icon">
+    <title>CSS: Seletores|Questão 8675</title>
+    <style>
+        body { 
+            background-color: #d2d2d2;
+        }
+        .container {
+            position: relative;
+            padding: 15px;
+            max-width: 690px;
+            margin: 0 auto;
+        }
+
+     .secao, .secao secao-destaque { 
+            padding: 30px;
+            margin-top: 20px;
+            color: red;
+        }
+
+        .secao-destaque{
+            background-color: #e4e7d9;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h1 class="titulo">Exercícios - Questão 8675</h1>
+    <div class="secao-header">
+        <h2>CSS: Seletores <br> Definindo estilos para os elementos</h2>
+    </div>
+    <div class="container">
+        <h4>Considere o código HTML abaixo:</h4>
+        <div class="secao-html">
+            <p>&lt;div class="secao secao-destaque"&gt;</p>
+            <p>&lt;h3&gt;Esportes&lt;/h3&gt;</p>
+            <p>&lt;p&gt;Cada vez mais os esportes tomam os destaques das notícias. Fique por dentro de tudo o que ocorre
+                nesse meio aqui no nosso portal.&lt;/p&gt;</p>
+            <p>&lt;/div&gt;</p>
+            <p>&lt;div class="secao"&gt;</p>
+            <p>&lt;h3&gt;Entretenimento&lt;/h3&gt;</p>
+            <p>&lt;p&gt;Memes, assuntos do dia e tudo que gera diversão você encontra aqui.&lt;/p&gt;</p>
+            <p>&lt;/div&gt;</p>
+            <p>&lt;div class="secao"&gt;</p>
+            <p>&lt;h3&gt;Economia&lt;/h3&gt;</p>
+            <p>&lt;p&gt;Todos os assuntos relacionados à Economia você encontra aqui no nosso portal.&lt;/p&gt;</p>
+            <p>&lt;/div&gt;</p>
+        </div>
+        <div class="container">
+            <div class="secao4"><br>
+                <div class="secao3">
+                    <h3>Complete o código CSS atendendo aos itens abaixo:
+                    </h3>
+                    <ul type="none">
+                        <li>- Utilize apenas as classes dos elementos;</li><br>
+                        <li>- Para todas as divs defina os respectivos estilos:</li><br>
+                        <li>- espaçamento interno de 30 pixels para todos os lados;</li><br>
+                        <li>- margem superior de 20 pixels;</li><br>
+                        <li>- Para a 1ª div defina o seguinte estilo:</li><br>
+                        <li>- Cor de fundo (#e4e7d9);</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="secao-html">
+            <div class="secao secao-destaque">
+                <h3>Esportes</h3>
+                <p>Cada vez mais os esportes tomam os destaques das notícias. Fique por dentro de tudo o que ocorre
+                    nesse meio aqui no nosso portal.</p>
+            </div>
+            <div class="secao">
+                <h3>Entretenimento</h3>
+                <p>Memes, assuntos do dia e tudo que gera diversão você encontra aqui.</p>
+            </div>
+            <div class="secao">
+                <h3>Economia</h3>
+                <p>Todos os assuntos relacionados à Economia você encontra aqui no nosso portal.</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
