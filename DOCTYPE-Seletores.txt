@@ -9,6 +9,12 @@ initial-scale=1.0">
 type="image/x-icon">
     <title>CSS: Seletores|Questão </title>
 <style>
+  .container {
+      position: relative;
+      max-width: 990px;
+      margin: 0 auto;
+  }
+
     img {
 max-width: 510px;
 max-height: 490px;

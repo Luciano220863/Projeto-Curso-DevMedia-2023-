@@ -1,14 +1,14 @@
   body {
       margin: 15px;
       padding: 0;
-      background: #c9b997;
+      background: #d4d4d4;
   }
 
   h1 {
       text-align: center;
       font-weight: bold;
       font-size: 45px;
-      color: #fff;
+      color: #000;
   }
 
   h2 {
@@ -27,13 +27,14 @@
       font-family: Arial, Helvetica, sans-serif;
       font-weight: bold;
       text-decoration: underline;
-      text-align: right;
+      text-align: left;
       color: #804000;
       margin-left: 25px;
       margin-right: 25px;
   }
 
   .secao-header,
+  .secao-text,
   .multtabela,
   .subtitulo,
   .secao-html,
@@ -41,10 +42,13 @@
   .secao2,
   .secao3,
   .secao4,
+  .blockquote,
   .tab {
       padding: 25px;
-      border: solid 1px white;
+      border: solid 4px #808080;
+      border-style: double;
       border-radius: 10px;
+      width: 100%;
   }
 
   li {
@@ -75,7 +79,7 @@
       padding-left: 35px;
       padding-right: 5px;
       padding-top: 10px;
-      padding-bottom: 15px ;
+      padding-bottom: 15px;
       max-width: 450px;
   }
 
@@ -119,12 +123,13 @@
   }
 
   .secao-html,
-  p {
-      font-family: Arial, Helvetica, sans-serif;
+  .p-html {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18px;
       color: #08f52f;
       background-color: #000;
       text-align: left;
-      padding: 0;
+      padding-bottom: 2px;
       box-sizing: 5px;
       margin-left: 15px;
       margin-right: 15px;
@@ -132,14 +137,13 @@
       margin-bottom: 15px;
   }
 
+
   .secao1 {
       margin-top: 5px;
       padding-top: 0;
       background: #5F9EA0;
       border: solid 1px #000;
       border-radius: 10px;
-      width: 700px;
-      height: 420px;
       align-items: center;
   }
 
@@ -281,7 +285,6 @@
 
   span {
       font-weight: bold;
-      font-size: 18px;
       text-decoration: underline;
-      color: #000;
+      color: blue;
   }
