@@ -9,12 +9,23 @@ initial-scale=1.0">
     <link rel="shortcut icon" href="./../../favicon.png" type="image/x-icon">
     <title>CSS: Seletores|Questão 8660 </title>
     <style>
+        .container {
+            position: relative;
+            max-width: 990px;
+            margin: 0 auto;
+        }
+
         img {
             max-width: 510px;
             max-height: 490px;
             width: 70%;
             height: 70%;
         }
+
+        span .texto-conteudo, .texto-conteudo .texto-destaque {
+    font-weight: bold;
+    color: #424242;
+}
     </style>
 </head>
 
@@ -36,19 +47,26 @@ initial-scale=1.0">
                 Units (SHU)&lt;/span&gt;.&lt;/p&gt;</p>
 
             <p>&lt;span&gt;Notícia publicada por reporterligado.com&lt;/span&gt;</p>
-        </div>
-        <h3><span>Resposta CSS aplicada com sucesso</span></h3>
-        <div class="secao-html">
-            <p>.titulo {</p>
-            <p>font-size: 24px;</p>
-            <p>}</p>
-            
-            <p>p {</p>
-            <p>font-size: 20px;</p>
-            <p>text-align: justify;</p>
-            <p>}</p>
+        </div><br>
+        <div class="container">
+            <p class="texto-conteudo">Se você gosta de uma boa pimenta, de sentir um ardor
+                daqueles na boca, essas três variedades são consideradas as mais ardidas do mundo,
+                segundo o <span class="texto-destaque">Guinness</span>. A engenheira agrônoma
+                <span>Juliana Pinheiro</span> começou a cultivar as pimentas nucleares e fazer
+                molhos muito picantes. Ela explica que são consideradas pimentas nucleares aquelas
+                que ultrapassam 1 milhão de unidades <span>Scoville Heat Units (SHU)</span>.
+            </p>
+            <span>Notícia publicada por reporterligado.com</span>
 
-        </div>
+        </div><br>
+    </div>
+    <div>
+        <center>
+        <h2><span>RESPOSTA APLICADA - OPÇÃO 3</span></h2>
+        <img src="./../img/img-resposta-questao8660.png" alt="img-resposta-questao8660"><br><br>
+        <img src="./../img/img-resposta-questao8660-erro1.png" alt="img-resposta-questao8660-erro1">
+        </center>
+
     </div>
 
 </body>
