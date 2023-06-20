@@ -2,6 +2,7 @@
 #.paragrafo
 absolutismo
 aconteceu
+afetaram
 agência
 agrônoma
 aguardados
@@ -28,6 +29,7 @@ burguês
 campeonato
 Capcom
 caráter
+cenas
 ciclo
 cineasta
 cinematográfico
@@ -43,6 +45,7 @@ Continuação
 contou
 corrige
 Corrigindo
+créditos
 crítica
 curioso
 daqueles
@@ -69,6 +72,7 @@ estilizada
 estreia
 estrelas
 estruturas
+eventos
 exclusivamente
 executivos
 existência
@@ -106,6 +110,7 @@ longa
 lotado
 Luxemburgo
 madrugada
+Maguire
 mantinham
 marcou
 melhores
@@ -117,6 +122,7 @@ mitologia
 modificada
 molhos
 mostra
+mostrar
 Mudança
 novos
 nucleares
@@ -155,6 +161,7 @@ revolução
 Revolução
 revolucionário
 rostos
+roteirista
 Sadikovic
 saiu
 Scoville
@@ -166,6 +173,8 @@ Serviços
 Shypsha
 sintomas
 sofreu
+Sommers
+Teiosos
 tenista
 terão
 traz
@@ -174,9 +183,12 @@ ultrapassam
 unidades
 Unidades
 unidas
+universos
 valer
 variedades
 verdadeira
+versões
+viajaríamos
 visuais
 visualização
 voltam
