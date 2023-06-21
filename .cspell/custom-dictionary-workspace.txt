@@ -1,6 +1,7 @@
 # Custom Dictionary Words
 #.paragrafo
 absolutismo
+acesa
 aconteceu
 afetaram
 agência
@@ -30,6 +31,7 @@ campeonato
 Capcom
 caráter
 cenas
+chama
 ciclo
 cineasta
 cinematográfico
