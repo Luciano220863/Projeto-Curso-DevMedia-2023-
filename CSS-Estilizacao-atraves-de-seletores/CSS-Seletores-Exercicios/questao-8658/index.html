@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./../../favicon.png" type="image/x-icon">
+    <title>CSS: Seletores|Questão 8658 </title>
+    <style>
+        .titulo,
+        .subtitulo {
+            text-align: center;
+        }
+
+        div .texto-destaque {
+            color: #457455;
+        }
+
+        .texto-destaque-rotulo {
+            color: #fff;
+            background-color: blue;
+        }
+
+        .secao-html {
+            background-color: #000;
+            text-align: left;
+            color: chartreuse;
+            margin-left: 25px;
+            border-radius: 10px;
+            padding-left: 30px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+        }
+
+        .texto-destaque-red {
+            color: red;
+            font-weight: bold;
+        }
+
+        .texto-destaque-branco {
+            color: #fff;
+            font-size: 22px;
+            font-style: normal;
+        }
+
+        .texto-destaque-texto {
+            color: gold;
+
+        }
+
+        .texto-destaque-leglink {
+            color: #9932CC;
+        }
+
+        .texto-destaque-link {
+            color: rgb(11, 75, 248);
+            text-decoration: underline;
+        }
+
+        .texto-destaque-legenda {
+            color: chocolate;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .container {
+            position: relative;
+            text-align: justify;
+            font-style: italic;
+            max-width: 990px;
+            margin: 0 auto;
+            border: double 7px blue;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        img {
+            max-width: 510px;
+            max-height: 490px;
+            width: 70%;
+            height: 70%;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="titulo">Exercícios - Questão 8658</h1>
+
+    <div class="secao-header">
+        <span class="texto-destaque-legenda">
+            <h2 class="subtitulo"></h2>
+        </span>CSS: Seletores <br>Estilos CSS</h2>
+    </div>
+    <h4>Complete os códigos HTML e CSS de acordo com os itens a seguir:</h4>
+
+    <div class="container">
+        <div class="secao-html">
+            <p><span class="texto-destaque-legenda"><span class="texto-destaque-red">&lt;div
+                        class=</span>"<span class="texto-destaque-rotulo">secao-conteudo</span></span><span
+                    class="texto-destaque-red">&gt;</span></p>
+            <p><span class="texto-destaque-legenda">&lt;p&gt;</span>Há mais de <span
+                    class="texto-destaque-legenda">&lt;span class="texto-destaque"&gt;</span>50 anos<span
+                    class="texto-destaque-legenda">&lt;/span&gt;</span> no mercado, temos uma variedade de serviços
+                muito vasta, atendendo <span class="texto-destaque-leglink">&lt;a href="clientes.html" alt="</span><span
+                    class="texto-destaque-link">Nossos clientes</span> <span class="texto-destaque-leglink">&gt;</span>
+                clientes<span class="texto-destaque-leglink">&lt;/a&gt;</span> por todo o Brasil
+                com o máximo de qualidade.<span class="texto-destaque-legenda">&lt;/p&gt;</span></p>
+            <p><span class="texto-destaque-red">&lt;/div&gt;</span></p>
+            <br><br>
+            <p><span class="texto-destaque-legenda"><span class="texto-destaque-red">&lt;div
+                        class=</span>"<span class="texto-destaque-rotulo">secao-rodape</span> </span><span
+                    class="texto-destaque-red">&gt;</span></p>
+
+            <p><span class="texto-destaque-leglink">&lt;a class="texto-destaque" href="<span
+                        class="texto-destaque-link">sobre.html</span>" alt="<span class="texto-destaque-texto">Sobre os
+                        Serviços</span>"&gt;<span class="texto-destaque-branco">Parcerias</span> &lt;/a&gt;</span></p>
+            <p><span class="texto-destaque-leglink">&lt;a href="<span class="texto-destaque-link">sobre.html</span>"
+                    alt="<span class="texto-destaque-texto">Sobre os serviços</span>"&gt;<span
+                        class="texto-destaque-branco">Sobre</span>&lt;/a&gt;</span></p>
+            <p><span class="texto-destaque-leglink">&lt;a href="<span class="texto-destaque-link">galeria.html</span>"
+                    alt="<span class="texto-destaque-texto">Galeria de fotos</span>"&gt;<span
+                        class="texto-destaque-branco">Galeria</span>&lt;/a&gt;</span></p>
+            <p><span class="texto-destaque-leglink">&lt;a href="<span class="texto-destaque-link">contato.html</span>"
+                    alt="<span class="texto-destaque-texto">Contato com a empresa</span>"&gt;<span
+                        class="texto-destaque-branco">Contato</span>&lt;/a&gt;</span></p>
+            <p><span class="texto-destaque-red">&lt;/div&gt;</span></p>
+
+        </div>
+    </div><br>
+    <div class="container">
+        <div class="secao-conteudo">
+            <p>Há mais de <span class="texto-destaque">50 anos</span> no mercado, temos
+                uma variedade de serviços muito vasta, atendendo
+                <a href="clientes.html" alt="Nossos clientes">clientes</a> por todo o Brasil
+                com o máximo de qualidade.
+            </p>
+        </div>
+
+        <div class="secao-rodape">
+            <a class="texto-destaque" href="sobre.html" alt="Sobre os serviços">Parcerias</a>
+            <a href="sobre.html" alt="Sobre os serviços">Sobre</a>
+            <a href="galeria.html" alt="Galeria de fotos">Galeria</a>
+            <a href="contato.html" alt="Contato com a empresa">Contato</a>
+        </div>
+    </div><br>
+
+    <div class="container">
+        <h2>Considerando as alternativas, marque a única correta:</h2>
+
+    </div>
+
+</body>
+
+</html>
