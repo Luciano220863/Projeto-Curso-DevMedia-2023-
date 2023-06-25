@@ -135,6 +135,7 @@ oeste
 Parcerias
 paredes
 participação
+participantes
 Partindo
 passado
 passou
@@ -155,6 +156,7 @@ público
 radicalismo
 recebendo
 refresco
+regras
 Renata
 repaginados
 reporterligado

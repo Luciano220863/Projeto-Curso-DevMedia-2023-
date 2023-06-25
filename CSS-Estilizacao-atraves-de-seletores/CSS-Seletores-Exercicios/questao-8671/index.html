@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS: Seletores - Questão 8671</title>
+    <style>
+        .container {
+            position: relative;
+            max-width: 650px;
+            margin: 0 auto;
+            background-color: black;
+        }
+
+        p{
+            font-style: italic;
+            font-weight: bold;
+            color: blue;
+            margin-left: 35px;
+        }
+
+        h1{
+            color: #787878;
+            font-size: 38px;
+        }
+
+        .imagem {
+            width: 500px;
+            height: 250px;
+        }
+
+        .imagem-destaque {
+            border: 2px solid #787878;
+            border-radius: 5px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+        <h1>
+            CSS: Seletores - Questão 8671 <br> Estilos para
+            imagens
+        </h1>
+        <h3>Abaixo temos um código HTML com três imagens:</h3>
+    </center>
+    <div class="container"> <br>
+        <center><img class="imagem imagem-destaque" src="./../img/campeonato.png" alt="Imagem do Campeonato">
+        </center> <br>
+        <center><img class="imagem" src="./../img/grupos.png" alt="Grupos participantes"></center> <br>
+        <center><img class="imagem" src="./../img/regras.png" alt="regras">
+            <h1>Resposta aplicada</h1>
+        </center> <br>
+
+        <p>&lt;style&gt;</p>
+        <p>.imagem {</p>
+        <p>width: 500px;</p>
+        <p>height: 250px;</p>
+        <p>}</p>
+
+        <p>.imagem-destaque {</p>
+        <p>border: 2px solid #787878;</p>
+        <p>}</p>
+        <p>&lt;/style&gt;</p>
+        <br>
+        <br>
+    </div>
+    <center>
+        <img src="./../img/img-questao8671.png" alt="img-questao8671">
+    </center>
+</body>
+
+</html>
