@@ -8,17 +8,22 @@
     <style>
         .container {
             position: relative;
-            max-width: 990px;
+            max-width: 650px;
             margin: 0 auto;
         }
 
         .secao-destaque .texto {
-            font-size: 16px;
+            font-size: 38px;
             font-family: Tahoma;
+            font-style: italic;
+            text-decoration: underline;
+            color: blueviolet;
         }
 
         .texto {
-            line-height: 36px;
+            line-height: 42px;
+            color: red;
+
         }
     </style>
 </head>
@@ -32,22 +37,32 @@
         </center>
     </div>
     <div class="container">
-        .secao-destaque .texto {
-        font-size: 16px;
-        font-family: Tahoma;
-        }
-
-        .texto {
-        line-height: 36px;
-        }
+        <p>.secao-destaque .texto {</p>
+        <p>font-size: 16px;</p>
+        <p>font-family: Tahoma;</p>
+        <p>}</p>
+<br>
+        <p>.texto {</p>
+        <p>line-height: 36px;</p>
+        <p>}</p>
 
     </div>
     <h3>Resposta aplicada:Opção 3</h3>
-    <p>
-        Todos os elementos com a classe "texto" contidos dentro de elementos com a classe "secao-destaque" terão a altura da
-        linha do texto modificada.
-    </p>
+    <p class="secao-destaque .texto">
+        Todos os elementos com a classe "texto" contidos dentro de elementos com a classe "secao-destaque" terão a altura da linha do texto modificada.</p>
+        <br>
+        <p class="texto">Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut
+        enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+        consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <h5>Erro na resposta</h5>
+    <br>
+    <div class="container">
+        <h3>Resposta aplicada</h3>
+        <p>Todos os elementos em qualquer lugar da página que tenham a classe "texto" terão o tamanho e a família de fonte
+        estilizados.</p>
+    </div>
+    <h1>Resposta aplicada errada, rever tópico</h1>
 
 
 </body>
