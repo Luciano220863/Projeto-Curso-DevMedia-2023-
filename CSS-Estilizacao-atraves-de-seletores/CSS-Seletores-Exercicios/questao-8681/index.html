@@ -5,49 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, 
 initial-scale=1.0">
-    <link rel="stylesheet" href="./../style.css">
+
     <link rel="shortcut icon" href="./../../favicon.png" type="image/x-icon">
     <title>CSS: Seletores|Questão </title>
     <style>
-        img {
-            max-width: 510px;
-            max-height: 490px;
-            width: 70%;
-            height: 70%;
-            
+        .container {
+            position: relative;
+            max-width: 650px;
+            margin: 0 auto;
         }
-        p, a {
-        color: #785520;
-        background-color: #e5e5e5;
-        margin-top: 15px;
-        color: red;
-        text-decoration: none;
-    }
+
+        div .imagem-logotipo {
+            width: 450px;
+            border: solid 5px red;
+        }
     </style>
 </head>
 
 <body>
-    <h1 class="titulo">Exercícios - Questão 8681</h1>
-    <div class="secao-header">
-        <h2>CSS: Seletores <br> Código para estilizar imagem</h2>
-    </div>
-    <h4>Considere o código HTML a seguir:</h4>
     <div class="container">
-        <div class="multtabela">
-    <div class="secao-html">
+        <center>
+            <h1 class="titulo">Exercícios - Questão 8681</h1>
+            <div class="secao-header">
+                <h2>CSS: Seletores <br> Código para estilizar imagem</h2>
+            </div>
+            <h4>Considere o código HTML a seguir:</h4>
+        </center>
+    </div>
+    <div class="container">
         <div class="secao">
             <img class="imagem imagem-logotipo" src="./../img/imagem-logotipo.png" alt="Logotipo da empresa">
         </div>
         <div class="secao">
             <h1>Serviços de qualidade para você!</h1>
             <img class="imagem imagem-banner" src="./../img/imagem-banner1.png" alt="Banner da empresa">
-            </div>
-        </div>
-        <p>Marque a única alternativa que contém um código CSS válido para definir estilos específicos apenas na imagem da 1ª div.</p>
         </div>
 
-    </div>
-<p><a href="definir estilos específicos">estilos</a></p>
+        <div class="container">
+            <p>Marque a única alternativa que contém um código CSS válido para
+                definir estilos específicos apenas na imagem da 1ª div.</p>
+        </div>
+        <p><a href="definir estilos específicos">estilos</a></p>
+
+        <div class="container">
+            <center>
+                <h2>Resposta CSS aplicada</h2>
+
+                &lt;style&gt;
+                <p>div .imagem-logotipo {</p>
+                <p>width: 450px;</p>
+                <p>border: solid 5px red;</p>
+                <p>}</p>
+                &lt;/style&gt;
+                <br>
+                <img src="./../img/img-questao8681.png" alt="img-questao8681">
+            </center>
+        </div>
 
 </body>
 
