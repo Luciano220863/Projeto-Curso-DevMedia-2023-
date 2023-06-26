@@ -30,6 +30,8 @@ burguês
 campeonato
 Capcom
 caráter
+Cartaz
+CARTAZ
 cenas
 chama
 ciclo
@@ -73,11 +75,13 @@ esperavam
 estavam
 estilizada
 estreia
+ESTREIAS
 estrelas
 estruturas
 eventos
 exclusivamente
 executivos
+exibicao
 existência
 explica
 fase
@@ -108,6 +112,8 @@ instalações
 irmãs
 justificar
 Keanu
+kinoplex
+Kinoplex
 legenda
 levar
 longa

@@ -3,78 +3,77 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, 
-initial-scale=1.0">
-    <link rel="stylesheet" href="./../../CSS-Seletores-Exercicios/style.css">
-    <link rel="shortcut icon" href="./../../favicon.png" type="image/x-icon">
-    <title>CSS: Seletores|Questão 8648</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS: Seletores | Questão 8648</title>
     <style>
-        img {
-            max-width: 510px;
-            max-height: 490px;
-            width: 70%;
-            height: 70%;
+        .container,
+        .container-estilo {
+            position: relative;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .container-estilo {
+            background-color: #000;
+            color: chartreuse;
+            padding-top: 15px;
+            padding-bottom: 10px;
+            margin-left: 35px;
+            border-radius: 15px;
         }
 
         .secao-destaque .texto {
             font-size: 16px;
             font-family: Tahoma;
-            text-align: center;
+            color: blue;
         }
 
         .texto {
             line-height: 36px;
-            border: solid 1px rgb(247, 241, 241);
+            color: darkgreen;
         }
     </style>
 </head>
 
 <body>
-    <h1 class="titulo">Exercícios - Questão 8648</h1>
-    <div class="secao-header">
-        <h2>CSS: Seletores<br>Descrevendo o código CSS</h2>
+    <div class="container">
+        <center>
+            <h1>CSS: Seletores | Questão 8648</h1>
+            <h2>Descrevendo o código CSS</h2>
+            <h4>Observe o código CSS a seguir:</h4>
+        </center>
     </div>
-    <h4>Observe o código CSS a seguir:</h4>
-    <div class="secao4">
-        <div class="secao-html">
-            <p>.secao-destaque .texto {</p>
-            <p>font-size: 16px;</p>
-            <p>font-family: Tahoma;</p>
-            <p>}</p>
-            <br>
-            <p>.texto {</p>
-            <p>line-height: 36px;</p>
-            
-            <p>}</p>
-        </div>
-        <div class="secao2">
-            <div class="secao-html">
-                <p class="secao-destaque .texto">
-                    A proposta desse projeto é criar uma página web estilizada e
-                    que exibe listas. Para isso vamos usar as linguagens HTML e CSS.
-                </p>
-            </div>
-        </div>
-        <div class="secao2">
-            <div class="secao-html">
-                <p class="texto">
-                    Teremos um arquivo HTML que conterá a estrutura da página da
-                    imobiliária e um arquivo CSS que conterá os estilos para
-                    mudar a aparência da página.
-                </p>
-            </div>
-        </div>
-        <div class="secao-destaque">
-            <h3>A opção selecionada foi</h3>
-            <p><span class="texto-destaque-red">Opção 1</span>  
-            Todos os elementos com a classe "texto" contidos dentro de elementos com a classe "secao-destaque" terão a altura da linha do texto modificada.</p>
-            <center>
-                <img src="./../img/img-erro-questao8648.png" alt="img-erro-questao8648" title="Estudar e rever o tópico">
-            </center>
+    <div class="container-estilo">
+        <p>.secao-destaque .texto {</p>
+        <p>font-size: 16px;</p>
+        <p>font-family: Tahoma;</p>
+        <p>}</p>
+        <br>
+        <p>.texto {</p>
+        <p>line-height: 36px;</p>
+        <p>}</p>
+    </div> <br>
 
+    <div class="container">
+        <div class="secao-destaque .texto">
+            Em Cartaz | Kinoplex - Cinema ao Máximo
+            kinoplex.com.br
+            https://www.kinoplex.com.br › filmes › em-exibicao
         </div>
 
+        <div class="texto">
+            HOME; FILMES; EM CARTAZ · EM CARTAZ · ESTREIAS
+</div>
+
     </div>
+<div class="container-estilo">
+<h1>Todos os elementos em qualquer lugar da página que tenham a classe "texto" terão o tamanho e a família de fonte
+estilizados.</h1>
+
+<h3>Resposta errada</h3>
+</div>
+
+
 </body>
 
 </html>
