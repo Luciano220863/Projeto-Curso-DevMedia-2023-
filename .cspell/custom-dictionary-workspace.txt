@@ -41,6 +41,7 @@ chama
 ciclo
 cineasta
 cinematográfico
+citadas
 clientes
 cofres
 comportamento
@@ -57,6 +58,7 @@ contou
 corrige
 Corrigindo
 créditos
+Crie
 crítica
 cumprir
 cúpula
@@ -131,6 +133,7 @@ incluem
 indo
 informada
 inserida
+Insira
 instalações
 irmãs
 justificar
@@ -140,6 +143,7 @@ Kinoplex
 legenda
 Letraset
 levar
+locais
 longa
 lotado
 Luxemburgo
@@ -164,6 +168,7 @@ Nigéria
 novos
 nucleares
 oeste
+ordens
 Organização
 organizada
 países
@@ -209,6 +214,7 @@ reporterligado
 repouso
 reprovação
 respectiva
+respectivas
 respeito
 respiratórios
 reviveu
