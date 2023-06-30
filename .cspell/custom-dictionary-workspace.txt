@@ -99,6 +99,7 @@ estreia
 ESTREIAS
 estrelas
 estruturas
+etapas
 Europeia
 Europeu
 eventos
@@ -141,6 +142,7 @@ informada
 inserida
 inserindo
 Insira
+inspenção
 instalações
 irmãs
 Júpiter
@@ -168,6 +170,7 @@ milhão
 mistas
 misturou
 mitologia
+modelos
 modificada
 molhos
 mostra
