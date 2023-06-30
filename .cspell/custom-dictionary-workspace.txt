@@ -24,6 +24,7 @@ atendimento
 atendimentos
 atingiu
 atleta
+ator
 atuais
 batida
 bicicleta
@@ -48,6 +49,7 @@ clientes
 cofres
 comportamento
 compromisso
+conhecido
 conseguimos
 conseguiu
 Conselho
@@ -152,6 +154,7 @@ justificar
 Keanu
 kinoplex
 Kinoplex
+Ladrões
 legenda
 Letraset
 levar
@@ -164,6 +167,7 @@ madrugada
 Maguire
 mantinham
 marcou
+Matar
 máximo
 melhores
 memória
@@ -207,10 +211,12 @@ positivo
 povo
 praias
 precária
+premiado
 premissa
 presença
 presidentes
 previsto
+Príncipe
 produzida
 programas
 prometeu
@@ -241,6 +247,7 @@ reviveu
 revolução
 Revolução
 revolucionário
+Rickman
 rostos
 roteirista
 Sadikovic
@@ -257,6 +264,7 @@ Serviços
 servirem
 Shypsha
 sintomas
+Snape
 sofreu
 Sommers
 Tedros
