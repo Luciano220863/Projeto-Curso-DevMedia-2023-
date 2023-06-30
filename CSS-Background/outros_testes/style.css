@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card {
+    background-color: #fff;
+    width: 320px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin: 10px auto;
+}
+
+.container {
+    background-color: #d3d3d3;
+    background-image: url('img/img-fundo.jpg');
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 100px;
+    background-attachment: fixed;
+}
+
+.texto-destaque-blue {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
