@@ -11,6 +11,12 @@
 <img src="" alt="" class="item current-item">
 <img src="" alt="" class="item current-item">
 <img src="" alt="" class="item current-item">
+     <img src="" alt="" class="item current-item">
+<img src="" alt="" class="item current-item">
+<img src="" alt="" class="item current-item">
+<img src="" alt="" class="item current-item">
+<img src="" alt="" class="item current-item">
+<img src="" alt="" class="item current-item">
     </div>
   </div>
 </div>
